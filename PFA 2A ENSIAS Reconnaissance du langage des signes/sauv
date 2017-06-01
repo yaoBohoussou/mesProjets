@@ -1,0 +1,14 @@
+for(vector<Rect>::it = faces.begin(); it!=faces.end(); ++it)
+	{
+		if(i==0) head = *it;
+		else
+		{
+			headcour =*it;
+			if(abs(headcour.x-head.x) < x_precdif || abs(headcour.y-head.y) < y_precdif)
+			{
+				x_precdif = abs(headcour.x-head.x);
+				y_precdif = abs(headcour.y-head.y);
+				head = headcour;
+			}
+		}
+	}

@@ -1,0 +1,135 @@
+#include "version4.hpp"
+
+int main()
+{
+	Mat frame_courante, frame_courante_Blur;
+	vector<vector<Point> > contours;
+	
+	VideoCapture cap(0);
+	if(!cap.isOpened()) 
+		return -1;
+	namedWindow( "Video", CV_WINDOW_AUTOSIZE );
+	namedWindow( "imgsimi", CV_WINDOW_AUTOSIZE );
+
+
+//
+Mat frame_contours, frameHSV, framePeauHSV, framePeauHSVreverse, frameY, framePeauY, framePeauYreverse ;
+int key;
+//Mat last_frame_contours = Mat::zeros( Size(300,300), CV_8UC3 );
+/*Ptr<BackgroundSubtractorMOG2> bg;
+bg = createBackgroundSubtractorMOG2(200,16,false);
+bg->setVarThreshold(16);*/
+
+vector<vector<Scalar> > intervallesHSV = calibrage(cap,"Video",COLOR_BGR2HSV);
+vector<vector<Scalar> > intervallesHSVreverse = calibrage(cap,"Video",COLOR_BGR2HSV);
+vector<vector<Scalar> > intervallesY = calibrage(cap,"Video",COLOR_BGR2YCrCb);
+vector<vector<Scalar> > intervallesYreverse = calibrage(cap,"Video",COLOR_BGR2YCrCb);
+vector<Point> handContour;
+Rect hand;
+
+Rect roiRoi1 = Rect(0,0,200,200);
+
+//
+
+///---------rec
+string cheminAlphabet = "/home/yannbohoussou/pfa/projet_1/version4/alphabet/";
+vector<Mat> images = list_images(cheminAlphabet);//(cheminAlphabet);
+
+/*for(vector<Mat>::iterator it = images.begin(); it!=images.end(); ++it)
+{
+	imshow("imgsimi",*it);
+	waitKey(1000);	
+}*/
+
+cout << " size = " << images.size() << endl << endl ;
+vector<Mat> list_img_preselect;
+int nombredoigtsFrameCour, nombredoigtsAlphabet;
+Mat img_sim, signe ;
+
+
+	for(;;)
+	{
+		cap >> frame_courante;
+
+	
+
+		//
+		GaussianBlur(frame_courante, frameHSV, Size(7,7), 1.5, 1.5);
+		cvtColor(frameHSV,frameHSV,COLOR_BGR2HSV);
+		framePeauHSV =  processColor(frameHSV, intervallesHSV);
+		framePeauHSVreverse =  processColor(frameHSV, intervallesHSVreverse);
+		dilate( framePeauHSV, framePeauHSV, Mat(), Point(-1,-1),1, BORDER_CONSTANT, morphologyDefaultBorderValue() );
+
+		GaussianBlur(frame_courante, frameY, Size(7,7), 1.5, 1.5);
+		cvtColor(frameY,frameY,COLOR_BGR2YCrCb);
+		framePeauY =  processColor(frameY, intervallesY);
+		framePeauYreverse = processColor(frameHSV, intervallesYreverse);
+		dilate( framePeauY, framePeauY, Mat(), Point(-1,-1),1, BORDER_CONSTANT, morphologyDefaultBorderValue() );
+
+		
+		contours = getContours (framePeauY);
+		frame_contours = dessinerContoursV2 (contours, frame_courante.size());
+
+		contours = getContours (framePeauYreverse);	
+		frame_contours = frame_contours + dessinerContoursV2 (contours, frame_courante.size());	
+
+		contours = getContours (framePeauHSV);	
+		frame_contours = frame_contours + dessinerContoursV2 (contours, frame_courante.size());	
+
+		contours = getContours (framePeauHSVreverse);	
+		frame_contours = frame_contours + dessinerContoursV2 (contours, frame_courante.size());	
+
+
+		contours = getContours (frame_contours);
+		frame_contours = dessinerContoursV3 (contours, frame_courante.size());
+		//handContour= getHandContoursV1(contours, frame_courante.size());
+		//hand = zoneContour(handContour);
+	
+		frame_contours = getContours_dessinerContours (frame_contours);
+		cvtColor(frame_contours, frame_contours, COLOR_BGR2GRAY);
+		//GaussianBlur(frame_contours, frame_contours, Size(7,7), 1.5, 1.5);
+
+		//roiRoi1 = selection(frame_contours,roiRoi1);
+		//rectangle( frame_contours,roiRoi1, Scalar(255,255,255));
+		//rectangle( frame_courante,roiRoi1, Scalar(0,0,0));
+		//signe = Mat(frame_contours,roiRoi1);
+
+		imshow("Video",frame_contours);
+
+		if(waitKey(30) >0) 
+		{
+			
+			/*nombredoigtsFrameCour = calcul_nombre_doigts(frame_contours);
+			cout << " nombre de doigts requête = " <<  nombredoigtsFrameCour << endl;
+			for(int i = 0;i<images.size();i++)
+			{
+
+				nombredoigtsAlphabet = calcul_nombre_doigts(images[i]);
+				//cout << " nombre de doigts image"<< i << " = " <<  nombredoigtsAlphabet << endl;
+
+				if(nombredoigtsAlphabet == nombredoigtsFrameCour)
+				{
+					list_img_preselect.push_back(images[i]);
+				}
+			}
+
+			
+			img_sim = Mat::zeros( frame_contours.size(), CV_8UC1 );
+			image_similaire(frame_contours,list_img_preselect,img_sim);
+
+			
+			imshow("imgsimi",img_sim);	
+			list_img_preselect.empty();*/
+
+			/*vector<int> compression_params;
+			compression_params.push_back(CV_IMWRITE_PNG_COMPRESSION);
+			imwrite( "framePeau.png", frame_contours, compression_params);*/
+			destroyAllWindows();
+			break;
+		}
+		
+	
+	}
+	
+	return 0;
+}

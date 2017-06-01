@@ -1,0 +1,157 @@
+#include"version4.hpp"
+
+/*vector<Mat> list_images(){
+
+   string chemin = "alphabet";
+   
+   DIR *rep = opendir("alphabet"); 
+   vector<Mat> list_img;
+
+   if (rep != NULL) {
+ 
+        struct dirent * ent; 
+        
+        while ((ent = readdir(rep)) != NULL) { 
+       		if( (strcmp(ent->d_name,".") !=0) &&  (strcmp(ent->d_name,"..")!=0) ){
+			
+			 Mat img = imread(chemin+"/"+ent->d_name,0);
+			 list_img.push_back(img);	
+			 //cout << chemin+"/"+ent->d_name << endl; 
+		}
+        } 
+  
+        closedir(rep); 
+    }
+    
+    return list_img; 
+}*/
+
+
+
+vector<Mat> list_images(string cheminAlphabet)
+{
+	vector<Mat> alphabet;
+	string nomIm;
+string noms[14] ={"A.png","B.png","S.png","K.png","D.png","U.png","V.png","i1.png","i2.png","i3.png","i4.png","i5.png","iB.png","ip.png"};
+//	string noms[7] = {"A1.png","B1.png","S1.png","K1.png","D1.png","U1.png","V1.png"};		
+	for(int i=0;i<14;i++)
+	{
+		nomIm = cheminAlphabet+noms[i];
+		Mat img = imread(nomIm,CV_LOAD_IMAGE_GRAYSCALE);
+		//imshow("imgsimi",img);
+		//waitKey(1000);	
+		alphabet.push_back(img);
+	}
+	return alphabet;
+}
+
+
+
+int calcul_nombre_doigts(Mat& img){
+
+	vector<vector<Point> > contours;
+  	vector<Vec4i> hierarchy;
+	int nombre_doigts = 0;
+
+	findContours( img,contours, hierarchy,RETR_TREE, CHAIN_APPROX_SIMPLE, Point(0, 0) );
+				//cout << "pass" << endl << endl;
+	vector<vector<Point> > hull(contours.size());
+				//cout << "pass" << endl << endl;
+	vector<vector<int> > hullI(contours.size()); 
+					//cout << "pass" << endl << endl;
+
+	vector<vector<Vec4i> > defects(contours.size());
+					//cout << "pass" << endl << endl;
+
+
+	convexHull( Mat(contours[0]), hull[0], false );
+	convexHull( Mat(contours[0]), hullI[0], false );
+    	convexityDefects(contours[0], hullI[0], defects[0]);
+     
+	//drawContours( drawing, contours, 0, Scalar(255,0,0), 1, 8, vector<Vec4i>(), 0, Point() );
+	//drawContours( drawing, hull, 0, Scalar(255,255,255), 1, 8, vector<Vec4i>(), 0, Point() );
+
+	for(int j=0;j<defects[0].size();j++){
+
+		const Vec4i& v = defects[0][j];
+         	float depth = v[3]/256;
+		
+         	if (depth > 20 && depth < 90 ){
+
+       			int startidx = v[0]; Point ptStart(contours[0][startidx]);
+                  	int endidx = v[1]; Point ptEnd(contours[0][endidx]);
+                    	int faridx = v[2]; Point ptFar(contours[0][faridx]);
+
+			/*
+                   	line(drawing, ptStart, ptEnd, Scalar(0, 255, 0), 1);
+                    	line(drawing, ptStart, ptFar, Scalar(0, 255, 0), 1);
+                   	line(drawing, ptEnd, ptFar, Scalar(0, 255, 0), 1);
+                   	circle(drawing, ptFar, 4, Scalar(0, 255, 0), 2);
+			circle(drawing, ptEnd, 4, Scalar(0, 0,255), 2);
+		         circle(drawing, ptStart, 4, Scalar(255, 255,255), 2);
+			*/
+
+			nombre_doigts++;
+                }
+	}
+
+	return nombre_doigts;
+
+}
+
+void image_similaire(Mat& img,vector<Mat> list_img_preselect,Mat& img_sim){
+	
+	Mat img_similaire = list_img_preselect[list_img_preselect.size()-1].clone();
+	//int indice_img_similaire = list_img_preselect[list_img_preselect.size()-1];
+
+	double dist = matchShapes(img,img_similaire,CV_CONTOURS_MATCH_I3,0);
+	list_img_preselect.pop_back();
+
+	for(int i = 0 ;i< list_img_preselect.size();i++){
+		
+		Mat img_temp = list_img_preselect[list_img_preselect.size()-1].clone();
+		double dist_temp = matchShapes(img,img_temp,CV_CONTOURS_MATCH_I3,0);	
+		if( dist_temp < dist){
+			
+			dist = dist_temp;
+			img_similaire = list_img_preselect[list_img_preselect.size()-1].clone();
+
+			//indice_img_similaire = list_img_preselect[list_img_preselect.size()-1];
+		}
+
+		list_img_preselect.pop_back();
+	}
+
+	img_sim = img_similaire.clone();
+	
+}
+
+/*
+void image_similaire(Mat& img,vector<Mat> list_img_preselect,Mat& img_sim){
+	
+	Mat img_similaire = list_img_preselect[list_img_preselect.size()-1].clone();
+	//int indice_img_similaire = list_img_preselect[list_img_preselect.size()-1];
+
+	double dist = matchShapes(img,img_similaire,CV_CONTOURS_MATCH_I3,0);
+	list_img_preselect.pop_back();
+
+	for(int i = 0 ;i< list_img_preselect.size();i++){
+		
+		Mat img_temp = list_img_preselect[list_img_preselect.size()-1].clone();
+		double dist_temp = matchShapes(img,img_temp,CV_CONTOURS_MATCH_I3,0);	
+		if( dist_temp < dist){
+			
+			dist = dist_temp;
+			img_similaire = list_img_preselect[list_img_preselect.size()-1].clone();
+
+			//indice_img_similaire = list_img_preselect[list_img_preselect.size()-1];
+		}
+
+		list_img_preselect.pop_back();
+	}
+
+	//putText(,,Point(src.cols/2, src.rows/10),fontFace, 1.2f,Scalar(200,0,0),2);
+	
+}*/
+
+
