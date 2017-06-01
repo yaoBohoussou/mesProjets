@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sport"> Sport</string>
+    <string name="cineEttv"> Cinema and TV</string>
+    <string name="histoire"> History</string>
+    <string name="musique"> Music</string>
+    <string name="fauneFlore"> Fauna and a</string>
+    <string name="science"> Science</string>
+    <string name="mytho"> Mythology</string>
+    <string name="langues"> Tongues</string>
+</resources>

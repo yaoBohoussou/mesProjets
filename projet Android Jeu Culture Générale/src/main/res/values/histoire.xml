@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hist_q_1_n1">Dans quelle ville fut construit le Titanic ?</string>
+    <string name="hist_r_1_n1">Belfast</string>
+    <string name="hist_choix_1_n1">Southampton,Liverpool,Glasgow</string>
+
+    <string name="hist_q_2_n1">En 1924, à quel peuple fut accordé la nationalité américaine ?</string>
+    <string name="hist_r_2_n1">Les Amérindiens</string>
+    <string name="hist_choix_2_n1">Les Néerlandais,Les Italiens,Les Texans</string>
+
+    <string name="hist_q_3_n1">Iwo Jima fut très disputée pendant la Deuxième guerre mondiale. Quel pays contrôle cette île aujourd\'hui ?</string>
+    <string name="hist_r_3_n1">Le Japon</string>
+    <string name="hist_choix_3_n1">La Russie,Phillipines,Etats-Unis</string>
+
+    <string name="hist_q_4_n1">Durant la fin du 18e siècle, de nombreux hommes voyageaient du Japon vers Broome afin de plonger, en quête de quoi ?</string>
+    <string name="hist_r_4_n1">De perles</string>
+    <string name="hist_choix_4_n1">D\'ormeaux,D\'or,D\'épaves</string>
+
+    <string name="hist_q_5_n1">Quel était le nom du navire de recherche qui eut à son bord Charles Darwin ?</string>
+    <string name="hist_r_5_n1">Beagle</string>
+    <string name="hist_choix_5_n1">Sirène,Une tortue,Aigle</string>
+
+    <string name="hist_q_6_n1">D\'après quelle chimiste suèdois une série de prix a-t-elle été nommée ?</string>
+    <string name="hist_r_6_n1">Alfred Nobel</string>
+    <string name="hist_choix_6_n1">Robert Willis,Carl Jung,Thomas Booker</string>
+
+    <string name="hist_q_7_n1">En tant que Prince de Valachie, Vlad II s\'est autoproclamé le fils du Dragon. Comment cela se traduit en Roumain ?</string>
+    <string name="hist_r_7_n1">Dracula</string>
+    <string name="hist_choix_7_n1">Ivan,Attila,Genghis</string>
+
+    <string name="hist_q_8_n1">Qui fonda sa premiere usine automobile à Détroit en 1899 ?</string>
+    <string name="hist_r_8_n1">Henry Ford</string>
+    <string name="hist_choix_8_n1">Gottleib Daimler,James Cadillac,Herbert Austin</string>
+
+    <string name="hist_q_9_n1">L\'expédition de quelle explorateur fut la première à naviguer autour de la Terre ?</string>
+    <string name="hist_r_9_n1">Magellan</string>
+    <string name="hist_choix_9_n1">de Gama,Cartier,Cook</string>
+
+    <string name="hist_q_10_n1">Qui a construit le 1er train opérationnel ?</string>
+    <string name="hist_r_10_n1">George stephenson</string>
+    <string name="hist_choix_10_n1">Martin Cooper,Joseph Staline,Robert Goddard</string>
+
+
+
+
+
+
+
+
+
+    <string name="hist_q_1_n2">Qui était "Blondi" pendant la seconde Guerre mondiale ?</string>
+    <string name="hist_r_1_n2">Le chien de Hitler</string>
+    <string name="hist_choix_1_n2">Une personne allemande blonde,Le sauvetage de Mussolini,L\'avion de Richard Bong</string>
+
+    <string name="hist_q_2_n2">Qui a renoncé à son titre pour chercher l\'illumination et a créé le Bouddhisme ?</string>
+    <string name="hist_r_2_n2">Siddhatha</string>
+    <string name="hist_choix_2_n2">Gandhi,Panjurbi,Dithadha</string>
+
+    <string name="hist_q_3_n2">Qu\'est-ce qui arriva aux Etats-Unis en 1885, sur le cargo français Isère, en 350 pièces?</string>
+    <string name="hist_r_3_n2">La statue de la Libérté</string>
+    <string name="hist_choix_3_n2">Le premier ascenseur,L\'ambassade de France,Le Yankee Stadium</string>
+
+    <string name="hist_q_4_n2">Qui a découvert les rayons X ?</string>
+    <string name="hist_r_4_n2">Wilhelm Conrad Rontgen</string>
+    <string name="hist_choix_4_n2">Hans Bethe,Albert Einstein,William Crookes</string>
+
+    <string name="hist_q_5_n2">De quelle nation Antonio de Oliveira Salazar a-t-il été le chef de 1932 à 1968 ?</string>
+    <string name="hist_r_5_n2">Du Portugal</string>
+    <string name="hist_choix_5_n2">D\'Albanie,De l\'Espagne,De Grèce</string>
+
+    <string name="hist_q_6_n2">Quel roi a signé la "Magna Carta" ?</string>
+    <string name="hist_r_6_n2">Jean</string>
+    <string name="hist_choix_6_n2">Richard 1er,Edouard 1er,Henry III</string>
+
+    <string name="hist_q_7_n2">Le 18 décembre 1961, l\'Inde entre en guerre avec un pays européen. En deux jours, Quel pays a-t-elle vaincu ?</string>
+    <string name="hist_r_7_n2">Portugal</string>
+    <string name="hist_choix_7_n2">France,Espagne,Italie</string>
+
+    <string name="hist_q_8_n2">En quelle année le couronnement de la reine Elizabeth II a-t-il eu lieu ?</string>
+    <string name="hist_r_8_n2">1953</string>
+    <string name="hist_choix_8_n2">1963,1943,1973</string>
+
+    <string name="hist_q_9_n2">En quelle année Adolf Hitler s\'est-il suicidé ?</string>
+    <string name="hist_r_9_n2">1945</string>
+    <string name="hist_choix_9_n2">1946,1944,1947</string>
+
+    <string name="hist_q_10_n2">Quel célèbre astronome est né à Pise, En Italie, en 1564 ?</string>
+    <string name="hist_r_10_n2">Galilée</string>
+    <string name="hist_choix_10_n2">Copernic,Brahe,Kepler</string>
+
+
+
+
+
+
+
+
+    <string name="hist_q_1_n3">Qui a dessiné la Statue de la Liberté ?</string>
+    <string name="hist_r_1_n3">Fredric Auguste Bartholdi</string>
+    <string name="hist_choix_1_n3">Roy Wilkins,William blount,George Washington</string>
+
+    <string name="hist_q_2_n3">Pourquoi Anne Frank, une jeune juive née en Allemagne esst-elle surtout connue lors de la 2e Guerre Mondiale ?</string>
+    <string name="hist_r_2_n3">Son journal</string>
+    <string name="hist_choix_2_n3">Son travail d\'infirmière,Son travail d\'espionnage,Sa musique</string>
+
+    <string name="hist_q_3_n3">Qui a tué Lee Harvey Oswald par balle ?</string>
+    <string name="hist_r_3_n3">Jack Ruby</string>
+    <string name="hist_choix_3_n3">Jhon F.Kennedy,Richard Nixon,Lyndon B.Johnsn</string>
+
+    <string name="hist_q_4_n3">Quelle bataille de 1775 marqua le début de la guerre d\'indépendance des Etats-Unis ?</string>
+    <string name="hist_r_4_n3">De Lexington</string>
+    <string name="hist_choix_4_n3">De Yorktown,De Bunker Hill,De Saratoga</string>
+
+    <string name="hist_q_5_n3">Quel dictateur prétendait avoir tué JFK avec une malédiction vaudou ?</string>
+    <string name="hist_r_5_n3">Papa Doc Duvalier</string>
+    <string name="hist_choix_5_n3">René Lévesque,Charles De Gaulle,Diên Biên Phu</string>
+
+    <string name="hist_q_6_n3">Quel est le pays d\'origine de Kofi Annan (ex-Secrétaire général de l\'ONU) ?</string>
+    <string name="hist_r_6_n3">La Ghana</string>
+    <string name="hist_choix_6_n3">Libye,Nigéria,Afrique du Sud</string>
+
+    <string name="hist_q_7_n3">Qui est le seul américain à être nommé dans "Mein Kampf" d\'Hitler ?</string>
+    <string name="hist_r_7_n3">Henry Ford</string>
+    <string name="hist_choix_7_n3">Joseph McCarthy,Franklin Roosevelt,Joe Louis</string>
+
+    <string name="hist_q_8_n3">Quel était le nom attribué au Pape Jean-Paul II?</string>
+    <string name="hist_r_8_n3">Karol Wojtyla</string>
+    <string name="hist_choix_8_n3">Juan Pablo Montoya,Wladyslaw Sobieski,Juan Paolo</string>
+
+    <string name="hist_q_9_n3">De quelle nationalité était Roald Amundsen, le 1er homme à avoir atteint le pôle Sud ?</string>
+    <string name="hist_r_9_n3">Norvégien</string>
+    <string name="hist_choix_9_n3">Hollandais,Belge,Suédoise</string>
+
+    <string name="hist_q_10_n3">Quel président américain était marié à Martha Todd ?</string>
+    <string name="hist_r_10_n3">Abraham Lincoln</string>
+    <string name="hist_choix_10_n3">Theodore Roosevelt,Woodrow Wilson,Ayoub Tebbai</string>
+
+
+
+
+
+
+
+    <string name="hist_q_1_n4">De quel pays l\'Impératrice Elizabeth Petrovna a été le leader historique ?</string>
+    <string name="hist_r_1_n4">La Russie</string>
+    <string name="hist_choix_1_n4">Malte,Italie,Grenade</string>
+
+    <string name="hist_q_2_n4">Quel était le 2eme prénom du Capitaine Scott, l\'explorateur ?</string>
+    <string name="hist_r_2_n4">Falcon</string>
+    <string name="hist_choix_2_n4">Eagle,Kestrel,Merli</string>
+
+    <string name="hist_q_3_n4">Qui fut surnommé le "Chancelier de fer" et unifia l\'Allemagne ?</string>
+    <string name="hist_r_3_n4">Otto Von Bismarck</string>
+    <string name="hist_choix_3_n4">Adolf Hitler,Paul Von Hindenburg,Helmut Khol</string>
+
+    <string name="hist_q_4_n4">Qui est le principal fondateur et premier ministre d\'Israël ?</string>
+    <string name="hist_r_4_n4">David Ben Gourion</string>
+    <string name="hist_choix_4_n4">Ernest Bevin,Thomas Andrews,Stanley Baldwin</string>
+
+    <string name="hist_q_5_n4">Quel fondateur du programme nucléaire du Pakistan a admis en 2004 avoir vendu des dessins d\'armes nucléaires ?</string>
+    <string name="hist_r_5_n4">A.Q.Khan</string>
+    <string name="hist_choix_5_n4">Jala Talabani,Hamid Karzai,David Kay</string>
+
+    <string name="hist_q_6_n4">Quelle ville se tient là où l\'empereur romain Constantin décida de déplacer sa capitale au 4e siècle av J.C. ?</string>
+    <string name="hist_r_6_n4">Istanbul</string>
+    <string name="hist_choix_6_n4">Vienne,Moscou,Madrid</string>
+
+    <string name="hist_q_7_n4">Jusqu\'en 1917, sous quel nom le chef des Russes était-il connu ?</string>
+    <string name="hist_r_7_n4">Le Tsar</string>
+    <string name="hist_choix_7_n4">Le Premier Prince,L\'Ambassadeur,Le Président</string>
+
+    <string name="hist_q_8_n4">La bataille d\'Alamo opposait des volontaires texans et l\'armée _____ .</string>
+    <string name="hist_r_8_n4">Du Mexique</string>
+    <string name="hist_choix_8_n4">De la France,De la Grande-Bretagne,Des USA</string>
+
+    <string name="hist_q_9_n4">En quelle année J.F.Kennedy a-t-il été assassiné ?</string>
+    <string name="hist_r_9_n4">1963</string>
+    <string name="hist_choix_9_n4">1960,1968,1966</string>
+
+    <string name="hist_q_10_n4">Combien de roi George y a-t-il eu en Angleterre ?</string>
+    <string name="hist_r_10_n4">Six</string>
+    <string name="hist_choix_10_n4">Quatre,Cinq,Huit</string>
+
+
+
+
+
+
+
+    <string name="hist_q_1_n5">Quel empereur romain fit construire un mur à travers le nord-ouest de l\'Angleterre ?</string>
+    <string name="hist_r_1_n5">Hadrien</string>
+    <string name="hist_choix_1_n5">Néron,Claude,Auguste</string>
+
+    <string name="hist_q_2_n5">Contre quel pays, avec lequel elle partage une île, s\'est déroulée la guerre d\'indépendance dominicaine ?</string>
+    <string name="hist_r_2_n5">Haiti</string>
+    <string name="hist_choix_2_n5">La Jamaique,Cuba,Sainte-Lucie</string>
+
+    <string name="hist_q_3_n5">Qui a succédé à la reine Victoria en tant que monarque britanique ?</string>
+    <string name="hist_r_3_n5">Le roi Edouerd VII</string>
+    <string name="hist_choix_3_n5">Le roi George IV,Le roi Edouard VIII,Le roi George V</string>
+
+    <string name="hist_q_4_n5">Durant quel siècle Robert de Brus fut-il roi des Ecossais ?</string>
+    <string name="hist_r_4_n5">Au 14e siècle</string>
+    <string name="hist_choix_4_n5">Au 12e siècle,Au 13e siècle,Au 15e siècle</string>
+
+    <string name="hist_q_5_n5">Quelle héroïne écossaise est connue pour son rôle dans l\'évasion de Bonnie Prince Charlie en 1746 ?</string>
+    <string name="hist_r_5_n5">Flora Macdonald</string>
+    <string name="hist_choix_5_n5">Janet McGregor,Jessie Knox,Sally Campbell</string>
+
+    <string name="hist_q_6_n5">Qui était le seul pape anglais ?</string>
+    <string name="hist_r_6_n5">Adrien IV</string>
+    <string name="hist_choix_6_n5">Benoit III,Pie VI,Gregoire X</string>
+
+    <string name="hist_q_7_n5">Quel est le nom du navire qui mena les Pères pèlerins en Amérique en 1620 ?</string>
+    <string name="hist_r_7_n5">Le Mayflower</string>
+    <string name="hist_choix_7_n5">L\'Endeavour,Le Goldon Hind,Le Beagle</string>
+
+    <string name="hist_q_8_n5">Qui est devenue journaliste sur les questions de race dans le sud après avoir été sortie de force d\'un wagon de 1ere classe ?</string>
+    <string name="hist_r_8_n5">Ida B. Wells</string>
+    <string name="hist_choix_8_n5">Bessie Coleman,Rosa Parks,Maya Angelou</string>
+
+    <string name="hist_q_9_n5">Quel était le nom du mari de la reine Victoria ?</string>
+    <string name="hist_r_9_n5">Albert</string>
+    <string name="hist_choix_9_n5">Anthony,Alexandre,Andrew</string>
+
+    <string name="hist_q_10_n5">Quel était la profession de Frank Lloyd Wright ?</string>
+    <string name="hist_r_10_n5">Architecte</string>
+    <string name="hist_choix_10_n5">Docteur,Artiste,Ecrivain</string>
+
+
+
+
+</resources>

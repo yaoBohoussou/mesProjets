@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ctv_q_1_n1">De quoi se nourrissent les plantes carnivores ?</string>
+<string name="ctv_r_1_n1">D\'insectes</string>
+<string name="ctv_choix_1_n1">De vers,De souris,D\'oiseaux</string>
+
+<string name="ctv_q_2_n1">Comment est la charge d\'un proton ?</string>
+<string name="ctv_r_2_n1">Positive</string>
+<string name="ctv_choix_2_n1">Neutre,Négative,Variable</string>
+
+<string name="ctv_q_3_n1">Le rubis est une pierre précieuse de quelle couleur ?</string>
+<string name="ctv_r_3_n1">Rouge</string>
+<string name="ctv_choix_3_n1">Bleue,Rose,Violette</string>
+
+<string name="ctv_q_4_n1">La culture en continu d\'un seul type de culture est ________.</string>
+<string name="ctv_r_4_n1">La monoculture</string>
+<string name="ctv_choix_4_n1">La pluriculture,La midculture,La Uniculture</string>
+
+<string name="ctv_q_5_n1">Qu\'est-ce qui est retiré pendant l\'appendicectomie?</string>
+<string name="ctv_r_5_n1">L\'appendice</string>
+<string name="ctv_choix_5_n1">Le rein,La moelle osseuse,Les Amygdales</string>
+
+<string name="ctv_q_6_n1">Lequel de ces animaux peut apprendre la langue des signes ?</string>
+<string name="ctv_r_6_n1">Le chimpanzé</string>
+<string name="ctv_choix_6_n1">Le chien,Le dauphin,L\'elephant</string>
+
+<string name="ctv_q_7_n1">De quel élément chimique Ba est-il le symbole ?</string>
+<string name="ctv_r_7_n1">Le baryum</string>
+<string name="ctv_choix_7_n1">Le basmuth,Le barylium,Le baure</string>
+
+<string name="ctv_q_8_n1">Les matériaux qui ne se laissent pas traverser facilement par l\'électricité sont des _____ .</string>
+<string name="ctv_r_8_n1">Isolants</string>
+<string name="ctv_choix_8_n1">Conducteurs,Spectateurs,Dictateurs</string>
+
+<string name="ctv_q_9_n1">Comment s\'appelle une substance avec une forme définie ?</string>
+<string name="ctv_r_9_n1">Solide</string>
+<string name="ctv_choix_9_n1">Liquide,Vapeur,Gaz</string>
+
+<string name="ctv_q_10_n1">Comment s\'appelle toute une série d\'événements se produisant encore et encore ?</string>
+<string name="ctv_r_10_n1">Un cycle</string>
+<string name="ctv_choix_10_n1">Un processus,Un système,Un cyclone</string>
+
+<string name="ctv_q_11_n1">Comment s\'appelle le gaz incolore, inodore et sans saveur qui constitue 78% de l\'atmosphère terrestre ?</string>
+<string name="ctv_r_11_n1">L\'azote</string>
+<string name="ctv_choix_11_n1">L\'hélium,L\'hydrogène,L\'oxygène</string>
+
+<string name="ctv_q_12_n1">Comment appelle-t-on les empreintes d\'êtres vivants morts il y a longtemps dans une roche ?</string>
+<string name="ctv_r_12_n1">Les fossiles</string>
+<string name="ctv_choix_12_n1">Le charbon,Les cristaux,Les roches éruptives</string>
+
+<string name="ctv_q_13_n1">Qu\'est-ce qu\'un courant électrique qui inverse le sens de sa circulation plusieurs fois par seconde ?</string>
+<string name="ctv_r_13_n1">Un courant alternatif</string>
+<string name="ctv_choix_13_n1">Une vague,Un circuit,Un courant de marées</string>
+
+<string name="ctv_q_14_n1">Comment appelle-t-on les déchets de nourriture et de plantes pourries ?</string>
+<string name="ctv_r_14_n1">Le compost</string>
+<string name="ctv_choix_14_n1">La condensation,L\'inoculation,Le nectar</string>
+
+<string name="ctv_q_15_n1">Comment appelle-t-on les organismes ressemblant à des plantes qui poussent dans l\'eau ?</string>
+<string name="ctv_r_15_n1">Les algues</string>
+<string name="ctv_choix_15_n1">Les algues marines,L\'agar,Les nénuphares</string>
+
+<string name="ctv_q_16_n1">Comment s\'appelle la galaxie dans laquelle se trouve notre système solaire ?</string>
+<string name="ctv_r_16_n1">La Voie lactée</string>
+<string name="ctv_choix_16_n1">Sol,Andromède,Omega du Centaure</string>
+
+<string name="ctv_q_17_n1">Comment s\'appelle l\'étude des choses vivantes ?</string>
+<string name="ctv_r_17_n1">La biologie</string>
+<string name="ctv_choix_17_n1">La chimie,La physique,L\'astronomie</string>
+
+<string name="ctv_q_18_n1">Quelle science est concernée par l\'interaction de la matière et de l\'énergie ?</string>
+<string name="ctv_r_18_n1">La physique</string>
+<string name="ctv_choix_18_n1">La phycologie,La physiologie,La psycologie</string>
+
+<string name="ctv_q_19_n1">Comment appelle-t-on la ligne imaginaire autour d\'une planète à mi-chemin entre ses pôles sud et nord ?</string>
+<string name="ctv_r_19_n1">L\'équateur</string>
+<string name="ctv_choix_19_n1">Le ligne du milieu,L\'estuaire,L\'équation</string>
+
+<string name="ctv_q_20_n1">lequel de ces minéraux est le plus dure ?</string>
+<string name="ctv_r_20_n1">Le diamant</string>
+<string name="ctv_choix_20_n1">Le talc,Le quartz,Le feldspath</string>
+
+
+
+
+
+
+
+
+<string name="ctv_q_1_n2">Lequel de ces choix contribue au réchauffement terrestre ?</string>
+<string name="ctv_r_1_n2">L\'effet de serre</string>
+<string name="ctv_choix_1_n2">Les Parcs, Les pagodes, Le jardinage</string>
+
+<string name="ctv_q_2_n2">Quel est le jour le plus long de l\'année ?</string>
+<string name="ctv_r_2_n2">Le solstice d\'été</string>
+<string name="ctv_choix_2_n2">L\'équinoxe d\'automne,Le solstice d\'hiver,L\'équinoxe de printemps</string>
+
+<string name="ctv_q_3_n2">Un carnivore (renard) qui mange un herbivore phytophage (lapin) serait de niveau trophique 3. Que sont les renard?</string>
+<string name="ctv_r_3_n2">Des consommateurs secondaires</string>
+<string name="ctv_choix_3_n2">Des consommateurs primaires,Des consommateurs tertiaires,La réponse n\'est pas listée</string>
+
+<string name="ctv_q_4_n2">Un courant multiplié par une résistance est égal à quoi ?</string>
+<string name="ctv_r_4_n2">Tension</string>
+<string name="ctv_choix_4_n2">Temps,Vitesse,Longuer</string>
+
+<string name="ctv_q_5_n2">Quelles particules atomiques sont de charge opposée ?</string>
+<string name="ctv_r_5_n2">Les protons et les électrons</string>
+<string name="ctv_choix_5_n2">Les électrons et les neutrons,Les protons et les neutrons,Toutes d\'attirent</string>
+
+<string name="ctv_q_6_n2">Que nécessite la reproduction asexuée ?</string>
+<string name="ctv_r_6_n2">Un parent</string>
+<string name="ctv_choix_6_n2">Deux parents,Quatre parents,Aucun parent</string>
+
+<string name="ctv_q_7_n2">Lequel de ces choix n\'est pas un type d\'énergie ?</string>
+<string name="ctv_r_7_n2">Du sol</string>
+<string name="ctv_choix_7_n2">Lumineuse,Chimique,électrique</string>
+
+<string name="ctv_q_8_n2">Dans les directions anatomiques, quel terme signifie "à proximité" ?</string>
+<string name="ctv_r_8_n2">Proximal</string>
+<string name="ctv_choix_8_n2">Latéral,Distal,Dorsal</string>
+
+<string name="ctv_q_9_n2">Par quel processus une plante utilise l\'énergie solaire pour créer des glucides ?</string>
+<string name="ctv_r_9_n2">La photosynthèse</string>
+<string name="ctv_choix_9_n2">La resynthèse,La plasmolyse,Le phototropisme</string>
+
+<string name="ctv_q_10_n2">Quelle planète est la plus petite parmis ces propositions ?</string>
+<string name="ctv_r_10_n2">Mercure</string>
+<string name="ctv_choix_10_n2">Mars,La terre,Jupiter</string>
+
+<string name="ctv_q_11_n2">Comment appelle-t-on la forme d\'énergie produite par le mouvement des électrons ?</string>
+<string name="ctv_r_11_n2">L\'électricité</string>
+<string name="ctv_choix_11_n2">La télékinésie,La gravité,L\'induction</string>
+
+<string name="ctv_q_12_n2">Quel terme désigne la fine et collante pellicule de bactéries qui se forme sur les dents ?</string>
+<string name="ctv_r_12_n2">La plaque</string>
+<string name="ctv_choix_12_n2">La plancton,La plaquette,Aucune des propositions</string>
+
+<string name="ctv_q_13_n2">Qu\'est ce qu\'une étoile filante ?</string>
+<string name="ctv_r_13_n2">Un météore</string>
+<string name="ctv_choix_13_n2">Une planète, Une étoile, Une naine rouge</string>
+
+<string name="ctv_q_14_n2">Parmi les choix suivant lequel est un exemple de formation géologique éolienne ?</string>
+<string name="ctv_r_14_n2">Une dune</string>
+<string name="ctv_choix_14_n2">Un lagon,Un ravin,Un atoll</string>
+
+<string name="ctv_q_15_n2">Quelle branche de la médecine traite des troubles des os, des articulation et des muscles ?</string>
+<string name="ctv_r_15_n2">L\'orthopédie</string>
+<string name="ctv_choix_15_n2">L\'odontologie,La rhumatologie,L\'exobiologie</string>
+
+<string name="ctv_q_16_n2">Que devient une atome après perte ou gain d\'un électron ?</string>
+<string name="ctv_r_16_n2">Un ion</string>
+<string name="ctv_choix_16_n2">Un iode,Un isotope,Un isobare</string>
+
+<string name="ctv_q_17_n2">Comment s\'appelle le processus faisant passer l\'eau de l\'état de vapeur à liquide ?</string>
+<string name="ctv_r_17_n2">La condensation</string>
+<string name="ctv_choix_17_n2">L\'exfoliation,L\'exposition,L\'évaporation</string>
+
+<string name="ctv_q_18_n2">Comment appelle-t-on l\'usure progressive du sol et de la roche surface de la terre ?</string>
+<string name="ctv_r_18_n2">L\'érosion</string>
+<string name="ctv_choix_18_n2">La résistance,L\'épidémie,La résure</string>
+
+<string name="ctv_q_19_n2">Comment se nomme la réaction entre un composé et l\'oxygène ?</string>
+<string name="ctv_r_19_n2">L\'oxydation</string>
+<string name="ctv_choix_19_n2">L\'hydrolyse,La gazéification,Aucune des propositions</string>
+
+<string name="ctv_q_20_n2">Quel élément est présent dans tous les composés organiques ?</string>
+<string name="ctv_r_20_n2">Le carbone</string>
+<string name="ctv_choix_20_n2">Le cuivre,Le calcium,Le Sodium</string>
+
+
+
+
+
+
+
+
+
+
+
+<string name="ctv_q_1_n3">Qui découvrit l\'élément Oxygène ?</string>
+<string name="ctv_r_1_n3">Joseph Priestley</string>
+<string name="ctv_choix_1_n3">John Dunlop,Otto Hahn,Willard Libby</string>
+
+<string name="ctv_q_2_n3">Les lions vivent en groupes appelés ______ ?</string>
+<string name="ctv_r_2_n3">Tribus</string>
+<string name="ctv_choix_2_n3">Troupes,Tanières,Covens</string>
+
+<string name="ctv_q_3_n3">De quelle couleur est le sand de la pieuvre .</string>
+<string name="ctv_r_3_n3">Bleu</string>
+<string name="ctv_choix_3_n3">Vert,Rouge,Jaune</string>
+
+<string name="ctv_q_4_n3">Combien de cheveux en moyennes les humains ont-ils sur la tête ?</string>
+<string name="ctv_r_4_n3">100 000</string>
+<string name="ctv_choix_4_n3">50 000,200 000,400 000</string>
+
+<string name="ctv_q_5_n3">Laquelle de ces sources d\'energie est renouvelable ?</string>
+<string name="ctv_r_5_n3">La géothermie</string>
+<string name="ctv_choix_5_n3">Le gaz naturel,Le pétrole,Le charbon</string>
+
+<string name="ctv_q_6_n3">La teneur en sel dans une solution se mesure à l\'aide d\'un _____ .</string>
+<string name="ctv_r_6_n3">Salinomètre</string>
+<string name="ctv_choix_6_n3">Eudiomètre,Goniomètre,OEnomètre</string>
+
+<string name="ctv_q_7_n3">Comment est appelée la projection à la surface de la terre du point d\'origine d\'un tremblement de terre ?</string>
+<string name="ctv_r_7_n3">L\'épicentre</string>
+<string name="ctv_choix_7_n3">L\'orbite,Le point central,Le point d\'avantage</string>
+
+<string name="ctv_q_8_n3">Comment appelle-t-on les nuages ronds moutonneux visibles quand il fait beau ?</string>
+<string name="ctv_r_8_n3">Les cumulus</string>
+<string name="ctv_choix_8_n3">Les cirrus,Les sébacés,Les cimurus</string>
+
+<string name="ctv_q_9_n3">Quelle est la distance au nord ou au sud de l\'équateur exprimée en degrés ?</string>
+<string name="ctv_r_9_n3">La latitude</string>
+<string name="ctv_choix_9_n3">La fréquence,La longitude,La ligne de démarcation</string>
+
+<string name="ctv_q_10_n3">Quel type d\'articulation sont l\'épaule et le bras humains ?</string>
+<string name="ctv_r_10_n3">Sphérique</string>
+<string name="ctv_choix_10_n3">Glissière,Pivot,Charnière</string>
+
+<string name="ctv_q_11_n3">Comment s\'appelle la concrétion qui se forme sur le sol des cavités souterraines ?</string>
+<string name="ctv_r_11_n3">Une stalagmite</string>
+<string name="ctv_choix_11_n3">Une sralactite,Une colonne,Une calcite</string>
+
+<string name="ctv_q_12_n3">Le fait d\'attacher la bouture d\'une plate à une autre pour faire pousser une nouvelle plante est ?</string>
+<string name="ctv_r_12_n3">Le greffage</string>
+<string name="ctv_choix_12_n3">Le tracage,La locomotion,La fécondation in vitro</string>
+
+<string name="ctv_q_13_n3">Qu\'arrive-t-il à l\'air lorsque l\'on prend de l\'altitude par rapport au niveau de la mer ?</string>
+<string name="ctv_r_13_n3">Il devient plus fin</string>
+<string name="ctv_choix_13_n3">Il devient plus épais,Il devient plus humide,Il devient plus chaud</string>
+
+<string name="ctv_q_14_n3">Combien de plaques lithosphériques la Terre possède-t-elle au TOTAL ?</string>
+<string name="ctv_r_14_n3">20</string>
+<string name="ctv_choix_14_n3">17,15,14</string>
+
+<string name="ctv_q_15_n3">L\'étude des abeilles est ______.</string>
+<string name="ctv_r_15_n3">L\'apidologie</string>
+<string name="ctv_choix_15_n3">L\'épidémiologie,La botanique,La dermatologie</string>
+
+<string name="ctv_q_16_n3">Qui a formulé la théorie de l\'évolution par la sélection naturelle en 1859 ?</string>
+<string name="ctv_r_16_n3">Charles Darwin</string>
+<string name="ctv_choix_16_n3">James Gall,Lazlo Biro,Evangelista Torricelli</string>
+
+<string name="ctv_q_17_n3">Quelle maladie est causée par l\'incapacité du corps à traiter le sucre correctement ?</string>
+<string name="ctv_r_17_n3">Diabète</string>
+<string name="ctv_choix_17_n3">Goutte,Bronchite,Asthme</string>
+
+<string name="ctv_q_18_n3">Les molécules d\'ozone se composent de trois atomes de quel élément ?</string>
+<string name="ctv_r_18_n3">L\'oxygène</string>
+<string name="ctv_choix_18_n3">L\'azote,L\'hélium,L\'hydrogène</string>
+
+<string name="ctv_q_19_n3">Les humains ont 46 chromosomes, Combien d\'entre eux ne sont PAS homologues ?</string>
+<string name="ctv_r_19_n3">2</string>
+<string name="ctv_choix_19_n3">Aucune des réponses,46,0</string>
+
+<string name="ctv_q_20_n3">Combien de compartiments les vaches ont-elles dans l\'estomac ?</string>
+<string name="ctv_r_20_n3">4</string>
+<string name="ctv_choix_20_n3">2,3,5</string>
+
+
+
+
+
+
+
+
+
+
+
+<string name="ctv_q_1_n4">Quel produit chimique compose la majoritè de votre dissolvant à vernis à ongles ?</string>
+<string name="ctv_r_1_n4">L\'acétone</string>
+<string name="ctv_choix_1_n4">L\'éthanol,Le méthanol, Le xylène</string>
+
+<string name="ctv_q_2_n4">Qui inventa le World Wide Web en 1989 ?</string>
+<string name="ctv_r_2_n4">Tim Berners-lee</string>
+<string name="ctv_choix_2_n4">Rene Laennec,Alan Turing,Frederick Banting</string>
+
+<string name="ctv_q_3_n4">Quand deux plaques terrestres s\'éloignent l\'une de l\'autre, quel type de frontière forment-elles ?</string>
+<string name="ctv_r_3_n4">Une frontière divergente</string>
+<string name="ctv_choix_3_n4">Une frontière rédigée,Une frontière convergente,Une frontière transformante</string>
+
+<string name="ctv_q_4_n4">Comment appelle-t-on la partie d\'une expérience qui reste inchangée alors que d\'autres parties changent ?</string>
+<string name="ctv_r_4_n4">Le contrôle</string>
+<string name="ctv_choix_4_n4">La Variable,L\'hypotèse,Le rassemblement de données</string>
+
+<string name="ctv_q_5_n4">Comment s\'appelle la structure, à l\'extrémité supérieure de la trachée, qui contient les cordes vocales ?</string>
+<string name="ctv_r_5_n4">Le larynx</string>
+<string name="ctv_choix_5_n4">La trachée,L\'oesophage,L\'épiglotte</string>
+
+<string name="ctv_q_6_n4">Laquelle de ces propositions ne désigne PAS l\'un des trois principaux types de roches ?</string>
+<string name="ctv_r_6_n4">Transmodifiée</string>
+<string name="ctv_choix_6_n4">Métamorphique,Magmatique,Sédimentaire</string>
+
+<string name="ctv_q_7_n4">Laquelle des ces propositions est une formation géologique côtière ?</string>
+<string name="ctv_r_7_n4">Un golf</string>
+<string name="ctv_choix_7_n4">Une crête,Une grotte,Une butte</string>
+
+<string name="ctv_q_8_n4">Qu\'est ce qui se passe avec la température de l\'air lorsqu\'un objet s\'éloigne de l\'equateur ?</string>
+<string name="ctv_r_8_n4">Elle devient plus froide</string>
+<string name="ctv_choix_8_n4">Elle devient plus humide,Elle devient plus chaude,Elle devient plus fine</string>
+
+<string name="ctv_q_9_n4">Quel est le nom d\'un globule blanc qui combat le germes et les substances néfastes dans le corps ?</string>
+<string name="ctv_r_9_n4">Un leucocyte</string>
+<string name="ctv_choix_9_n4">Un plasma,Une hémoglobine,Un érythrocyte</string>
+
+<string name="ctv_q_10_n4">Les urochordés (Aka seringues de mer) comprennent lequel des groupes suivant ?</string>
+<string name="ctv_r_10_n4">Ascidies arctiques</string>
+<string name="ctv_choix_10_n4">Myxines,Pétromyzontides,Amphioxus</string>
+
+<string name="ctv_q_11_n4">Un organisme qui ne peut pas fixer du carbone mais qui utilise quand même du carbone organique pour se développer est ?</string>
+<string name="ctv_r_11_n4">Un organisme hétérotrophe </string>
+<string name="ctv_choix_11_n4">Un organisme polytrophe,Un organisme autotrophe,Un organisme algéotrophe</string>
+
+<string name="ctv_q_12_n4">Quel est le nombre D\'avogadro ?</string>
+<string name="ctv_r_12_n4">6.02*10^23</string>
+<string name="ctv_choix_12_n4">5.13*10^26,8.07*10^24,7.42*10^21</string>
+
+<string name="ctv_q_13_n4">Dans les direction anatomiques, quel terme signifie "en dessous, dessous" ?</string>
+<string name="ctv_r_13_n4">Inférieur</string>
+<string name="ctv_choix_13_n4">Latéral,Rostral,Ventral</string>
+
+<string name="ctv_q_14_n4">Qu\'est-ce qui donne aux plantes leur couleur verte ?</string>
+<string name="ctv_r_14_n4">La chlorophylle</string>
+<string name="ctv_choix_14_n4">La lumière du soleil,La pollinisation,L\'eau</string>
+
+<string name="ctv_q_15_n4">Quelle est la valeur de l\'accélération gravitationnelle de la Terre ?</string>
+<string name="ctv_r_15_n4">9.8 m/s</string>
+<string name="ctv_choix_15_n4">3.3 m/s,16.4 m/s,109.6 m/s</string>
+
+<string name="ctv_q_16_n4">Qui a découvert la radioactivité dans l\'uranium en 1896 ?</string>
+<string name="ctv_r_16_n4">Henri Becquerel</string>
+<string name="ctv_choix_16_n4">Max planck,Albert Einstein,Alfred Wegener</string>
+
+<string name="ctv_q_17_n4">Quels pere et fils était tous les 2 gagnants d\'un prix Nobel en physique? en différentes années en différents sujets.</string>
+<string name="ctv_r_17_n4">Bohr</string>
+<string name="ctv_choix_17_n4">Chadwick, Dirac, Planck</string>
+
+<string name="ctv_q_18_n4">Pourquoi le titane est-il onéreux à extraire de son minerai ?</string>
+<string name="ctv_r_18_n4">Il y as beaucoup d\'étapes</string>
+<string name="ctv_choix_18_n4">Il n\'y a pas de procédé défini, Les rendements sont élevés, c\'est rapide</string>
+
+<string name="ctv_q_19_n4">Comment s\'appelle l\'ion à charge positive ?</string>
+<string name="ctv_r_19_n4">Le cation</string>
+<string name="ctv_choix_19_n4">L\'anion,Le proton,Le positron</string>
+
+<string name="ctv_q_20_n4">Qui fur le 1er à représenter les valeurs trigonométriques en tant que rapports ?</string>
+<string name="ctv_r_20_n4">Leaonard Euler</string>
+<string name="ctv_choix_20_n4">Bill "the big E" Frankowitz,Eddie Guardado,Austin Edwards</string>
+
+
+
+
+
+
+
+
+
+
+
+<string name="ctv_q_1_n5">Qu\'est-ce que le phloème ?</string>
+<string name="ctv_r_1_n5">Un tissu conducteur de sève</string>
+<string name="ctv_choix_1_n5">Un type d\'algue,Un type de placton de mer, Du mucus de nez humain</string>
+
+<string name="ctv_q_2_n5">Quelle planète a une inclinison de l\'axe de 98° ?</string>
+<string name="ctv_r_2_n5">Uranus</string>
+<string name="ctv_choix_2_n5">Saturne,Mercure,Neptune</string>
+
+<string name="ctv_q_3_n5">Quel est le nom de l\'os de la jambe supérieur chez les humains, le plus long et le plus résistant du corps ?</string>
+<string name="ctv_r_3_n5">Le fémur</string>
+<string name="ctv_choix_3_n5">Le cubitus,Le péroné,L\'humérus</string>
+
+<string name="ctv_q_4_n5">Quel liquide jaune-vert produit par le foie aide à la digestion des graisses ?</string>
+<string name="ctv_r_4_n5">La bile</string>
+<string name="ctv_choix_4_n5">La bilirubine,La biluire, La biliare</string>
+
+<string name="ctv_q_5_n5">Quel est le conduit qui laisse passer l\'air dans la trachée et la nourriture dans l\'oesophage ?</string>
+<string name="ctv_r_5_n5">Le pharynx</string>
+<string name="ctv_choix_5_n5">L\'epiglotte,Le phloème,Le Larynx</string>
+
+<string name="ctv_q_6_n5">En fonction de l\'interlocuteur, Combien de niveaux de classification biologique existe-t-il ?</string>
+<string name="ctv_r_6_n5">7-9</string>
+<string name="ctv_choix_6_n5">10-12,4-6,12-14</string>
+
+<string name="ctv_q_7_n5">Comment d\'appelle la plus grande lune de Saturne ?</string>
+<string name="ctv_r_7_n5">Titan</string>
+<string name="ctv_choix_7_n5">Io,Callisto,Ganymède</string>
+
+<string name="ctv_q_8_n5">Quel est le symbole chimique de l\'antimoine ?</string>
+<string name="ctv_r_8_n5">Sb</string>
+<string name="ctv_choix_8_n5">T,Ti,Sn</string>
+
+<string name="ctv_q_9_n5">Le platine porte ce nom parce qu\'il a été trouvé dans les mêmes mines qu\'un autre élément, lequel?</string>
+<string name="ctv_r_9_n5">L\'argent</string>
+<string name="ctv_choix_9_n5">Le charbon,Le diamant,La bauxite</string>
+
+<string name="ctv_q_10_n5">Qui a été le 1er à proposer la théorie quantique en 1900 ?</string>
+<string name="ctv_r_10_n5">Max Planck</string>
+<string name="ctv_choix_10_n5">Henri Becquerel,Albert Einstein,Neils Bohr</string>
+
+<string name="ctv_q_11_n5">La sève de quel arbre produit le célèbre sirop ?</string>
+<string name="ctv_r_11_n5">L\'érable</string>
+<string name="ctv_choix_11_n5">Le chêne,La fougère,Le marronnier</string>
+
+<string name="ctv_q_12_n5">En océoanographie, quelle cline repose sur la différence de densité de l\'eau de mer ?</string>
+<string name="ctv_r_12_n5">La pycnocline</string>
+<string name="ctv_choix_12_n5">La réponse n\'est pas listée,L\'halocline,La chimiocline</string>
+
+<string name="ctv_q_13_n5">Quelle est l\'unité de charge électrique du systeme international ?</string>
+<string name="ctv_r_13_n5">Couloumb</string>
+<string name="ctv_choix_13_n5">Ohm,Ampere,Volt</string>
+
+<string name="ctv_q_14_n5">Quel est le nom de la formation qui s\'éleve du sol des grottes ?</string>
+<string name="ctv_r_14_n5">Les stalagmites</string>
+<string name="ctv_choix_14_n5">Les stalagtites,La coulée de calcite,Les stalactites</string>
+
+<string name="ctv_q_15_n5">Comment appelle-t-on un organisme qui obtient des nutriments en consommant des plantes ou des animaux décomposés ?</string>
+<string name="ctv_r_15_n5">Un détritivore</string>
+<string name="ctv_choix_15_n5">Un xylovore,Un marinovore,Un protéovore</string>
+
+<string name="ctv_q_16_n5">L\'étude des relations entre les humains et les animaux au cours du temps est _____ .</string>
+<string name="ctv_r_16_n5">L\'archéozoologie</string>
+<string name="ctv_choix_16_n5">L\'astrobiologie,La cytomorphologie,L\'exobiologie</string>
+
+<string name="ctv_q_17_n5">Quelle sorte de composé est le HCL</string>
+<string name="ctv_r_17_n5">Un Acide</string>
+<string name="ctv_choix_17_n5">Une base,Une enzyme,Un ligand</string>
+
+<string name="ctv_q_18_n5">Quelle est l\'effet de la déforestation sur les niveaux de dioxyde de carbone dans l\'atmosphere ?</string>
+<string name="ctv_r_18_n5">Augmentation</string>
+<string name="ctv_choix_18_n5">Aucun effet,Baisse,L\'effet est variable</string>
+
+<string name="ctv_q_19_n5">Quel vaisseau spatial, lancé en 1972, était à l\'origine destiné à l\'étude de Jupiter ?</string>
+<string name="ctv_r_19_n5">Pioneer 10</string>
+<string name="ctv_choix_19_n5">Voyager 11,Magellan 2,Vostok 3</string>
+
+<string name="ctv_q_20_n5">Quel est le nom de l\'énergie d\'un corps en mouvement ?</string>
+<string name="ctv_r_20_n5">Cinétique</string>
+<string name="ctv_choix_20_n5">Potentielle,Kriptonique,électrique</string>
+
+
+</resources>

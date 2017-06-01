@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:util="http://java.sun.com/jsf/composite/tag"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <meta charset="utf-8"/>
+		<title>ADMINISTRATEUR</title>
+		<link rel="stylesheet" href="employe.css" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    </h:head>
+    
+    <h:body overflow="scroll">
+    
+    	<header>
+			<h1><span class ="espace_admin"> ESPACE ADMIN </span></h1>
+			<div>
+				<span class ="message_bienvenue"> Bienvenue  #{beanAdmin.nomadmin} </span>
+				<span class ="deconnexion" > 
+					<h:form>
+						<h:commandLink action="#{beanAdmin.deconnexion}">deconnexion </h:commandLink> <!-- value="#{messages.checkoutLabel} a ajouter -->
+					</h:form>
+				</span>
+				
+				<span class ="mode_employe" > 
+					<h:form>
+						<h:commandLink action="#{beanAdmin.modeemploye}">Passer en mode employe </h:commandLink> 
+					</h:form>
+				</span>
+			</div>
+		</header>
+		
+		<section>
+			<div class="fonctions_admin">
+				<div class="ajout_employe">
+					<h:form>
+							<fieldset>
+								<legend>Données de l'employe</legend>
+								
+								<h:outputLabel value="Nom: " /> <h:inputText  value="#{beanAdmin.nom}" required="true" requiredMessage="nom obligatoire" id="nom0"/><br/>
+								<h:outputLabel value="prenoms: " /> <h:inputText  value="#{beanAdmin.prenoms}" required="true" requiredMessage="prenoms obligatoire" id="prenom0"/><br/>
+								
+								<h:outputLabel value="date de naissance: " /> 
+								<h:inputText  value="#{beanAdmin.dateNaissance}" required="true" requiredMessage="date de naissance obligatoire" id="dnaiss0">
+									<f:converter converterId="convertisseur_de_dates" />
+								</h:inputText><br/>
+								
+								<h:outputLabel value="Adresse: " /> 
+								<h:inputText  value="#{beanAdmin.adr}" required="true" requiredMessage="Adresse obligatoire" id="adr0">
+									<f:converter converterId="AdresseConverter" />
+								</h:inputText><br/>
+								<h:outputLabel value="e-mail: " /> <h:inputText  value="#{beanAdmin.mail}" required="true" requiredMessage="email obligatoire" id="mail0"/><br/>
+								<h:outputLabel value="CNI: " /> <h:inputText  value="#{beanAdmin.cni}" required="true" requiredMessage="cni obligatoire" id="cni0"/><br/>
+								
+								<h:outputLabel value="date embauche: " /> 
+								<h:inputText  value="#{beanAdmin.dateembauche}" required="true" requiredMessage="date embauche obligatoire" id="demb0">
+									<f:converter converterId="convertisseur_de_dates" />
+								</h:inputText><br/>
+								
+								<h:outputLabel value="Salaire: " /> <h:inputText  value="#{beanAdmin.salaire}" required="true" requiredMessage="salaire obligatoire" id="sal0"/><br/>
+								<h:outputLabel value="Poste: " /> <h:inputText  value="#{beanAdmin.poste}" required="true" requiredMessage="poste obligatoire" id="poste0"/><br/>					
+								<h:outputLabel value="login " /> <h:inputText  value="#{beanAdmin.login}" required="true" requiredMessage="login obligatoire" id="login0"/><br/>	
+								<h:outputLabel value="Password: " /> <h:inputText  value="#{beanAdmin.mdp}" required="true" requiredMessage="password obligatoire" id="mdp0"/><br/>		
+								
+								<h:commandButton  action="#{beanAdmin.enregistrer_employe}" value="Enregistrer employe" />
+								
+							</fieldset>
+						</h:form> 
+				</div>
+				
+				<div class = "modif_employe">
+					<FIELDSET>
+							<legend>Modifier Employe</legend>
+							<h:form>
+							<FIELDSET>
+								<legend>Identifiant de l'employe</legend>
+								<h:outputLabel value="Identifiant: " /> <h:inputText value="#{beanAdmin.id}" id="idEmpmod" /><br/>
+							</FIELDSET>
+							<FIELDSET>
+								<legend> Données qui on été modifiées </legend>
+									<h:selectManyCheckbox value="#{beanAdmin.listdesmods}">
+										<f:selectItem id="nom" itemLabel="NOM" itemValue="1" />
+								        <f:selectItem id="Prenoms" itemLabel="Prenoms" itemValue="2" />
+								        <f:selectItem id="dateNaissance" itemLabel="Birthdate" itemValue="3" />
+								       	<f:selectItem id="Adresse" itemLabel="Adresse" itemValue="4" />
+								        <f:selectItem id="mail" itemLabel="e-mail" itemValue="5" />
+								        <f:selectItem id="cni" itemLabel="CNI" itemValue="6" />								        
+								        <f:selectItem id="dateEmbauche" itemLabel="Hire date" itemValue="7" />
+								        <f:selectItem id="salaire" itemLabel="salaire" itemValue="8" />
+								       	<f:selectItem id="poste" itemLabel="poste" itemValue="9" />
+								        <f:selectItem id="login" itemLabel="login" itemValue="10" />
+								        <f:selectItem id="mdp" itemLabel="password" itemValue="11" />								        
+									</h:selectManyCheckbox>
+							</FIELDSET>
+							<fieldset>
+							
+							
+								<legend>Nouvelles Données de l'employe</legend>
+								
+								<h:outputLabel value="Nom: " /> <h:inputText  value="#{beanAdmin.nom}" required="false" requiredMessage="nom obligatoire" id="nom1"/><br/>
+								<h:outputLabel value="prenoms: " /> <h:inputText  value="#{beanAdmin.prenoms}" required="false" requiredMessage="prenoms obligatoire" id="prenom1"/><br/>
+								
+								<h:outputLabel value="date de naissance: " /> 
+								<h:inputText  value="#{beanAdmin.dateNaissance}" required="false" requiredMessage="date de naissance obligatoire" id="dnaiss1">
+									<f:converter converterId="convertisseur_de_dates" />
+								</h:inputText><br/>
+								
+								<h:outputLabel value="Adresse: " /> 
+								<h:inputText  value="#{beanAdmin.adr}" required="false" requiredMessage="Adresse obligatoire" id="adr1">
+									<f:converter converterId="AdresseConverter" />
+								</h:inputText><br/>
+								<h:outputLabel value="e-mail: " /> <h:inputText  value="#{beanAdmin.mail}" required="false" requiredMessage="email obligatoire" id="mail1"/><br/>
+								<h:outputLabel value="CNI: " /> <h:inputText  value="#{beanAdmin.cni}" required="false" requiredMessage="cni obligatoire" id="cni1"/><br/>
+								
+								<h:outputLabel value="date embauche: " /> 
+								<h:inputText  value="#{beanAdmin.dateembauche}" required="false" requiredMessage="date embauche obligatoire" id="demb0">
+									<f:converter converterId="convertisseur_de_dates" />
+								</h:inputText><br/>
+								
+								<h:outputLabel value="Salaire: " /> <h:inputText  value="#{beanAdmin.salaire}" required="false" requiredMessage="salaire obligatoire" id="sal1"/><br/>
+								<h:outputLabel value="Poste: " /> <h:inputText  value="#{beanAdmin.poste}" required="false" requiredMessage="poste obligatoire" id="poste1"/><br/>					
+								<h:outputLabel value="login " /> <h:inputText  value="#{beanAdmin.login}" required="false" requiredMessage="login obligatoire" id="login1"/><br/>	
+								<h:outputLabel value="Password: " /> <h:inputText  value="#{beanAdmin.mdp}" required="false" requiredMessage="password obligatoire" id="mdp1"/><br/>		
+								
+								<h:commandButton  action="#{beanAdmin.modifier_employe}" value="Enregistrer employe" />
+								
+							</fieldset>
+							
+						</h:form>
+					</FIELDSET>
+							
+				</div>
+				
+				<div class="ajouter_livre">
+					<FIELDSET>
+						<legend>Ajouter livre</legend>
+					
+						<h:form>
+						
+							<h:outputLabel value="Edition: " /> <h:inputText  value="#{beanAdmin.edition}" required="true" requiredMessage="edition obligatoire" id="edit0"/><br/>
+							<h:outputLabel value="Nombre en stock: " /> <h:inputText  value="#{beanAdmin.nombrestock}" required="true" requiredMessage="stock obligatoire" id="stock0"/><br/>		
+					
+							<FIELDSET>
+								<legend>choix type livre</legend>
+								
+									<h:selectOneRadio id="types_livres" value="#{beanAdmin.typelivre}" required="true" requiredMessage="type livre obligatoire">
+								        <f:selectItem id="item1" itemLabel="Roman" itemValue="1" />
+								        <f:selectItem id="item2" itemLabel="doc autre" itemValue="2" />
+								    </h:selectOneRadio>
+								
+							</FIELDSET>
+							<FIELDSET>
+								<legend>champs roman</legend>
+								
+									<h:outputLabel value="Auteur " /> <h:inputText  value="#{beanAdmin.auteur}" required="false" requiredMessage="auteur obligatoire" id="aut0"/><br/>
+									<h:outputLabel value="Titre " /> <h:inputText  value="#{beanAdmin.titre}" required="false" requiredMessage="titre obligatoire" id="titr0"/><br/>
+									<h:outputLabel value="date Parution " /> 
+									<h:inputText  value="#{beanAdmin.dateparution}" required="false" requiredMessage="date de parution obligatoire" id="datpar0">
+										<f:converter converterId="convertisseur_de_dates" />
+									</h:inputText><br/>
+									<h:outputLabel value="Style " /> <h:inputText  value="#{beanAdmin.style}" required="false" requiredMessage="style obligatoire" id="style0"/><br/>									
+								
+							</FIELDSET>
+							
+							<FIELDSET>
+								<legend>champs docautre</legend>
+								
+									<h:outputLabel value="type " /> <h:inputText  value="#{beanAdmin.typedoc}" required="false" requiredMessage="typedoc obligatoire" id="typedoc0"/><br/>
+									<h:outputLabel value="description " /> <h:inputText  value="#{beanAdmin.description}" required="false" requiredMessage="description obligatoire" id="description0"/><br/>									
+								
+							</FIELDSET>
+						<h:commandButton  action="#{beanAdmin.ajouter_livre}" value="Ajouter livre" />
+					</h:form>
+					
+				</FIELDSET>
+					
+					
+				</div>
+				
+				
+				<div class="modifier_livre">
+					<FIELDSET>
+						<legend>Modifier livre</legend>
+						<h:form>
+							<FIELDSET>
+								<legend> Identifiant du livre </legend>
+								<h:outputLabel value="Identifiant " /> <h:inputText  value="#{beanAdmin.id}" required="true" requiredMessage="identifiant obligatoire" id="idlivre"/><br/>
+
+							</FIELDSET>
+								
+							<FIELDSET>
+								<legend> Données qui on été modifiées </legend>
+									<h:selectManyCheckbox value="#{beanAdmin.listdesmods}" required="true" requiredMessage="données modifiées obligatoire">
+										<f:selectItem id="edition" itemLabel="edition" itemValue="1" />
+								        <f:selectItem id="nombrestock" itemLabel="nombrestock" itemValue="2" />
+								        <f:selectItem id="titre" itemLabel="titre" itemValue="3" />
+								       	<f:selectItem id="auteur" itemLabel="auteur" itemValue="4" />
+								        <f:selectItem id="dateparution" itemLabel="date parution" itemValue="5" />
+								        <f:selectItem id="style" itemLabel="style" itemValue="6" />								        
+								        <f:selectItem id="description" itemLabel="description" itemValue="3" />
+								        <f:selectItem id="typedoc" itemLabel="type document" itemValue="4" />
+								   							        
+									</h:selectManyCheckbox>
+							</FIELDSET>	
+					
+							<h:outputLabel value="Edition: " /> <h:inputText  value="#{beanAdmin.edition}" required="false" requiredMessage="edition obligatoire" id="edit1"/><br/>
+							<h:outputLabel value="Nombre en stock: " /> <h:inputText  value="#{beanAdmin.nombrestock}" required="false" requiredMessage="stock obligatoire" id="stock1"/><br/>		
+					
+							<FIELDSET>
+								<legend>choix type livre</legend>
+								
+									<h:selectOneRadio id="types_livres" value="#{beanAdmin.typelivre}" required="true" requiredMessage="type livre obligatoire">
+								        <f:selectItem id="item1" itemLabel="Roman" itemValue="1" />
+								        <f:selectItem id="item2" itemLabel="doc autre" itemValue="2" />
+								    </h:selectOneRadio>
+								
+							</FIELDSET>
+							<FIELDSET>
+								<legend>champs roman</legend>
+								
+									<h:outputLabel value="Auteur " /> <h:inputText  value="#{beanAdmin.auteur}" required="false" requiredMessage="auteur obligatoire" id="aut1"/><br/>
+									<h:outputLabel value="Titre " /> <h:inputText  value="#{beanAdmin.titre}" required="false" requiredMessage="titre obligatoire" id="titr1"/><br/>
+									<h:outputLabel value="date Parution " /> 
+									<h:inputText  value="#{beanAdmin.dateparution}" required="false" requiredMessage="date de parution obligatoire" id="datpar1">
+										<f:converter converterId="convertisseur_de_dates" />
+									</h:inputText><br/>
+									<h:outputLabel value="Style " /> <h:inputText  value="#{beanAdmin.style}" required="false" requiredMessage="style obligatoire" id="style1"/><br/>									
+								
+							</FIELDSET>
+							
+							<FIELDSET>
+								<legend>champs docautre</legend>
+								
+									<h:outputLabel value="type " /> <h:inputText  value="#{beanAdmin.typedoc}" required="false" requiredMessage="typedoc obligatoire" id="typedoc1"/><br/>
+									<h:outputLabel value="description " /> <h:inputText  value="#{beanAdmin.description}" required="false" requiredMessage="description obligatoire" id="description1"/><br/>									
+								
+							</FIELDSET>
+						<h:commandButton  action="#{beanAdmin.modifier_livre}" value="Enregistrer les modifications" />
+					</h:form>
+					
+				</FIELDSET>					
+				</div>
+				
+				
+				
+				
+				<div class = "verr_deverr_employe">
+					<FIELDSET>
+							<legend>Verrouiller Employe</legend>
+							<h:form>
+							<FIELDSET>
+								<legend>Identifiant de l'employe</legend>
+								<h:outputLabel value="Identifiant: " /> <h:inputText value="#{beanAdmin.id}" id="idEmpverr" /><br/>
+								<h:commandButton  action="#{beanAdmin.verrouiller_employe}" value="Bloquer" />							
+							</FIELDSET>
+							
+							</h:form>
+					</FIELDSET>
+					
+					<FIELDSET>
+							<legend>Deverrouiller Employe</legend>
+							<h:form>
+							<FIELDSET>
+								<legend>Identifiant de l'employe</legend>
+								<h:outputLabel value="Identifiant: " /> <h:inputText value="#{beanAdmin.id}" id="idEmpdeverr" /><br/>
+							</FIELDSET>
+							<FIELDSET>
+								<legend>new credentials</legend>
+								<h:outputLabel value="new login " /> <h:inputText  value="#{beanAdmin.login}" required="false" requiredMessage="login obligatoire" id="login2"/><br/>	
+								<h:outputLabel value="new Password: " /> <h:inputText  value="#{beanAdmin.mdp}" required="false" requiredMessage="password obligatoire" id="mdp2"/><br/>		
+								<h:commandButton  action="#{beanAdmin.deverrouiller_employe}" value="debloquer" />							
+							</FIELDSET>							
+							</h:form>
+					</FIELDSET>
+				</div>			
+			</div>
+			
+			<div class="listes">
+				<div class="liste_employe">
+						<h:dataTable id="table1" value="#{beanAdmin.listeemploye}" var="client" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES CLIENTS" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{client.id}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Nom" />
+					        </f:facet>
+					        <h:outputText value="#{client.nom}" />
+					    </h:column>
+					    
+					     <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Prenoms" />
+					        </f:facet>
+					        <h:outputText value="#{client.prenoms}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Date de naissance" />
+					        </f:facet>
+					        <h:outputText value="#{client.dateNaissance}">
+					        		<f:converter converterId="convertisseur_de_dates" />					       
+					        </h:outputText>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="E-mail" />
+					        </f:facet>
+					        <h:outputText value="#{client.mail}"/>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="CNI" />
+					        </f:facet>
+					        <h:outputText value="#{client.cni}"/>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Adresse" />
+					        </f:facet>
+					        <h:outputText value="#{client.adr}">
+					        	<f:converter converterId="AdresseConverter" />
+					        </h:outputText>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Date embauche" />
+					        </f:facet>
+					        <h:outputText value="#{client.dateembauche}">
+					        		<f:converter converterId="convertisseur_de_dates" />					       
+					        </h:outputText>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="salaire" />
+					        </f:facet>
+					        <h:outputText value="#{client.salaire}"/>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="poste" />
+					        </f:facet>
+					        <h:outputText value="#{client.poste}"/>
+					    </h:column>					    
+					</h:dataTable>
+				</div>
+			</div>
+			
+			
+			
+			<div class="liste_livres" >					
+					<h:dataTable id="table2" value="#{beanAdmin.listeroman}" var="roman" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES ROMANS" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{roman.id}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Edition" />
+					        </f:facet>
+					        <h:outputText value="#{roman.edition}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Nombre en stock" />
+					        </f:facet>
+					        <h:outputText value="#{roman.nombrestock}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Titre" />
+					        </f:facet>
+					        <h:outputText value="#{roman.titre}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="auteur" />
+					        </f:facet>
+					        <h:outputText value="#{roman.auteur}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="dateparution" />
+					        </f:facet>
+					        <h:outputText value="#{roman.dateparution}">
+								<f:converter converterId="convertisseur_de_dates" />					        
+					        </h:outputText>
+					    </h:column>
+					    
+					      <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="style" />
+					        </f:facet>
+					        <h:outputText value="#{roman.style}" />
+					    </h:column>
+					</h:dataTable>
+				</div>
+						
+				<div class="liste_docs" >					
+					<h:dataTable id="table3" value="#{beanAdmin.listedocautre}" var="doc" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES DOCUMENTS AUTRES" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{doc.id}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Edition" />
+					        </f:facet>
+					        <h:outputText value="#{doc.edition}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Nombre en stock" />
+					        </f:facet>
+					        <h:outputText value="#{doc.nombrestock}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Type de document" />
+					        </f:facet>
+					        <h:outputText value="#{doc.typedoc}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Description" />
+					        </f:facet>
+					        <h:outputText value="#{doc.description}" />
+					    </h:column>
+
+					</h:dataTable>
+				</div>		
+			
+		
+		</section>		
+    
+    </h:body>
+</html>

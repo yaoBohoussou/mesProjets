@@ -1,0 +1,109 @@
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true"    
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+  	<LinearLayout 
+  		  android:orientation="vertical" android:layout_width="match_parent"
+  		  android:layout_height="match_parent"
+   		  android:background="@drawable/black_glass">
+
+    <TextView
+        android:id="@+id/nomJeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" 
+        android:layout_gravity="center|top"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        />
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="theme" 
+            android:layout_weight="1"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/niveau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="niveau"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enigme"
+        android:layout_weight="3"
+        android:textSize="32sp" />
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reponse" 
+            android:textSize="24sp"/>
+
+        <EditText
+            android:id="@+id/reponseEnigme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:lines="1" 
+            android:textSize="24sp"
+            android:layout_weight="1"
+
+            />
+
+        <Button
+            android:id="@+id/reponseEnigme_OK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="@string/GO"
+            android:textSize="24sp"
+            android:onClick="go" />
+
+        </LinearLayout>
+        
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="6"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" 
+        android:layout_weight="4">
+
+	</GridView>
+
+    
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="spt_q_1_n1">Les Lakers jouent leurs matchs NBA à domicile dans quelle ville ?</string>
+    <string name="spt_r_1_n1">Los Angeles</string>
+    <string name="spt_choix_1_n1">Denver,Détroit,Boston</string>
+
+    <string name="spt_q_2_n1">Lequel de ces clubs de football joue lors du derby "El Classico" ?</string>
+    <string name="spt_r_2_n1">Real Madrid</string>
+    <string name="spt_choix_2_n1">Bayern Munich,Manchester United,Paris Saint-Germain</string>
+
+    <string name="spt_q_3_n1">Don King est un promoteur cèlèbre de quel sport ?</string>
+    <string name="spt_r_3_n1">La boxe</string>
+    <string name="spt_choix_3_n1">Le tennis,La lutte,Le Golf</string>
+
+    <string name="spt_q_4_n1">Michael Jordan est pincipalement associé à quel sport ?</string>
+    <string name="spt_r_4_n1">Basket-ball</string>
+    <string name="spt_choix_4_n1">Football américan,Base-ball,Hokey sur glace</string>
+
+    <string name="spt_q_5_n1">Quel discipline ne fait normalement PAS partie du triathlon ?</string>
+    <string name="spt_r_5_n1">Ski</string>
+    <string name="spt_choix_5_n1">Running,Cyclisme,Natation</string>
+
+    <string name="spt_q_6_n1">Quelle est la couleur principale des maillots domicile du Chelsea FC ?</string>
+    <string name="spt_r_6_n1">Bleu</string>
+    <string name="spt_choix_6_n1">Noir,Vert,Rouge</string>
+
+    <string name="spt_q_7_n1">Quelle est la nationalité du célébre footballeur Cristiano Ronaldo ?</string>
+    <string name="spt_r_7_n1">Portugaise</string>
+    <string name="spt_choix_7_n1">Argetine,Espagnole,Américaine</string>
+
+    <string name="spt_q_8_n1">La NBA est la principale liigue nord-américaine dans quel sport ?</string>
+    <string name="spt_r_8_n1">Basket-ball</string>
+    <string name="spt_choix_8_n1">Le football américain,Le Base-ball,Le Hockey</string>
+
+    <string name="spt_q_9_n1">Quel pilote a remporté le plus grand nombre de championnats de Formule 1 dans sa carrière ?</string>
+    <string name="spt_r_9_n1">Michael Schumacher</string>
+    <string name="spt_choix_9_n1">Juan Fangio,Alain Prost,Ayrton Senna</string>
+
+    <string name="spt_q_10_n1">Dans quel pays african la FIFA à organiser la coupe du monde 2010 ?</string>
+    <string name="spt_r_10_n1">L\'Afrique du Sud</string>
+    <string name="spt_choix_10_n1">La Sénégal,La Tunisie,Le Nigeria</string>
+
+
+
+
+
+
+
+
+
+    <string name="spt_q_1_n2">Si vous regardez une course de chiens sur piste, Quelle espèce est probablement en train de courir ?</string>
+    <string name="spt_r_1_n2">Des Léviers</string>
+    <string name="spt_choix_1_n2">Des Whippets,Des Saint-Bernard,Des Salukis</string>
+
+    <string name="spt_q_2_n2">Qui est l\'athlète métisse qui s\'est décrit comme "Cablinasien":Causacian,noir,indien et Asiatique?</string>
+    <string name="spt_r_2_n2">Tiger Woods</string>
+    <string name="spt_choix_2_n2">Rock,Grant Fuhr,Franco Harris</string>
+
+    <string name="spt_q_3_n2">Pour quel club de football Thierry Henry jouait-il entre 1999 et 2007 ?</string>
+    <string name="spt_r_3_n2">Arsenal</string>
+    <string name="spt_choix_3_n2">Marseille,Bayern Munich,Juventus</string>
+
+    <string name="spt_q_4_n2">Quelle ville a accueilli les jeux Olympiques d\'été en 2004 ?</string>
+    <string name="spt_r_4_n2">Athènes</string>
+    <string name="spt_choix_4_n2">Paris,Londres,Barcelone</string>
+
+    <string name="spt_q_5_n2">Le Japon a co-organisé la Coupe du monde 2002 avec quelle autre nation ?</string>
+    <string name="spt_r_5_n2">La Corée du Sud</string>
+    <string name="spt_choix_5_n2">La Chine,La Malaisie,L\'Australie</string>
+
+    <string name="spt_q_6_n2">Quel pays a remporté le plus souvent la coupe du monde de football ?</string>
+    <string name="spt_r_6_n2">Brésil</string>
+    <string name="spt_choix_6_n2">Argentine,Italie,Allemagne</string>
+
+    <string name="spt_q_7_n2">Combien de gants de base-ball peut-on fabriquer avec le cuir d-une seule vache ?</string>
+    <string name="spt_r_7_n2">5</string>
+    <string name="spt_choix_7_n2">10,15,25</string>
+
+    <string name="spt_q_8_n2">Les régles de quel sport ont été établies par le London Swimming Club en 1870 ?</string>
+    <string name="spt_r_8_n2">Le water polo</string>
+    <string name="spt_choix_8_n2">Les criquets,Rugby,Football</string>
+
+    <string name="spt_q_9_n2">Qui a été l\'entraîneur de l\'équipe Manchester United de 1986 à 2013 ?</string>
+    <string name="spt_r_9_n2">Alex Ferguson</string>
+    <string name="spt_choix_9_n2">Ron Atkinson,David Moyes,Matt Busby</string>
+
+    <string name="spt_q_10_n2">A quelle fréquence a lieu le Super Bowl américain ?</string>
+    <string name="spt_r_10_n2">Chaque année</string>
+    <string name="spt_choix_10_n2">Tous les deux ans,Tous les quatre ans,Tous les cinq ans</string>
+
+
+
+
+
+
+
+
+    <string name="spt_q_1_n3">Le parcours de quel marathon prend fin au Copley Square dans le quartier Back Bay ?</string>
+    <string name="spt_r_1_n3">Le marathon de Boston</string>
+    <string name="spt_choix_1_n3">Le marathon de Londres,Le marathon de New York,Le marathon de Chicago</string>
+
+    <string name="spt_q_2_n3">Quel est le nom de famille des soeurs joueuses de tennis Venus et Serena ?</string>
+    <string name="spt_r_2_n3">Williams</string>
+    <string name="spt_choix_2_n3">Sela,Johnson,Smith</string>
+
+    <string name="spt_q_3_n3">Lors des jeux Asiatiques d\'hiver de 2007,le Kazakhistan a anéanti le Thailande 52 à 1 dans quel sport ?</string>
+    <string name="spt_r_3_n3">Hockey</string>
+    <string name="spt_choix_3_n3">Crosse,Basket,Curling</string>
+
+    <string name="spt_q_4_n3">Quelle ville thailandaise a accueilli le plus souvant les jeux d\'Asie ?</string>
+    <string name="spt_r_4_n3">Bangkok</string>
+    <string name="spt_choix_4_n3">Saigon,Rangoon,Phnom Penh</string>
+
+    <string name="spt_q_5_n3">En 2008, quel était l\'état américan le plus peuplé n\'ayant aucune équipe dans une des ligues sportives majeures?</string>
+    <string name="spt_r_5_n3">La Virginie</string>
+    <string name="spt_choix_5_n3">Le Nevada,Le Cennecticut,L\'Alabama</string>
+
+    <string name="spt_q_6_n3">En 1986, la Chine leva l\'interdiction datant de 1959 de pratiquer quel sport ?</string>
+    <string name="spt_r_6_n3">La boxe</string>
+    <string name="spt_choix_6_n3">Rugby,L\'arc,Le football</string>
+
+    <string name="spt_q_7_n3">En 2003, Quel est le premier pays enclavé à avoir remporté l\'America\'s Cup ?</string>
+    <string name="spt_r_7_n3">Suisse</string>
+    <string name="spt_choix_7_n3">Australie,Italie,France</string>
+
+    <string name="spt_q_8_n3">Quel course de natation n\'a pas été introduite aux Jeux Olympiques avant 1956 ?</string>
+    <string name="spt_r_8_n3">Le papillon</string>
+    <string name="spt_choix_8_n3">La brasse,La nage libre,La nage du chien</string>
+
+    <string name="spt_q_9_n3">A quel continent appartenaient les pays ayant boycotté les jeux olympiques d\'été en 1976 ?</string>
+    <string name="spt_r_9_n3">Afrique</string>
+    <string name="spt_choix_9_n3">Asie,Europe,Amérique du Sud</string>
+
+    <string name="spt_q_10_n3">Le champion du monde de sprint Usain Bolt est originaire de quel pays ?</string>
+    <string name="spt_r_10_n3">La Jamaique</string>
+    <string name="spt_choix_10_n3">Cuba,Les Bahamas,Trinité</string>
+
+
+
+
+
+
+
+
+    <string name="spt_q_1_n4">Dans quelle ville des Etats-Unis pouvez-vous trouver l\'équipe de base-ball des Padres ?</string>
+    <string name="spt_r_1_n4">San Diego</string>
+    <string name="spt_choix_1_n4">Los Angeles,New York,Détroit</string>
+
+    <string name="spt_q_2_n4">Au tour de France, de quelle couleur est le maillot du leader du classement général ?</string>
+    <string name="spt_r_2_n4">Jaune</string>
+    <string name="spt_choix_2_n4">Blanc,Vert,Bleu</string>
+
+    <string name="spt_q_3_n4">Quel est le sport pratiqué par les Harlem Globetrotters ?</string>
+    <string name="spt_r_3_n4">Basket</string>
+    <string name="spt_choix_3_n4">Baseball,Football américan,Ice Hokey</string>
+
+    <string name="spt_q_4_n4">Que signifie le "H" dans le nom "NHL" ?</string>
+    <string name="spt_r_4_n4">Hockey</string>
+    <string name="spt_choix_4_n4">Horse racing,Hurling,Handball</string>
+
+    <string name="spt_q_5_n4">Dans quel sport trois strikes successifs s\'appellent un "turkey" ?</string>
+    <string name="spt_r_5_n4">Le jeu de quilles</string>
+    <string name="spt_choix_5_n4">Baseball,Le golf,Les criquets</string>
+
+    <string name="spt_q_6_n4">Pour quel club de la Ligue Majeure de Football David Beckham a-t-il joué?</string>
+    <string name="spt_r_6_n4">LA Galaxy</string>
+    <string name="spt_choix_6_n4">DC United, NY red bull,Chicago Fire</string>
+
+    <string name="spt_q_7_n4">Wayne Gretzky est un ancien champion de quel sport ?</string>
+    <string name="spt_r_7_n4">Hockey sur glace</string>
+    <string name="spt_choix_7_n4">Basket,Football américan,Baseball</string>
+
+    <string name="spt_q_8_n4">Dans quel pays s\'est déroulé la coupe du monde de football en 1994 ?</string>
+    <string name="spt_r_8_n4">USA</string>
+    <string name="spt_choix_8_n4">Mexique,Italie,France</string>
+
+    <string name="spt_q_9_n4">Dans quel jeu faut-il frapper la balle avec une batte et courir et revenir autant de fois que possible entre deux guichets ?</string>
+    <string name="spt_r_9_n4">Cricket</string>
+    <string name="spt_choix_9_n4">Pelote basque,Curling,Rugby</string>
+
+    <string name="spt_q_10_n4">Combien de joueurs y-t-il dans une équipe de polo ?</string>
+    <string name="spt_r_10_n4">4</string>
+    <string name="spt_choix_10_n4">2,8,16</string>
+
+
+
+
+
+
+
+
+    <string name="spt_q_1_n5">Quel est le sport pratiqué par l\'équipe "Miami Dolphins" ?</string>
+    <string name="spt_r_1_n5">Football américan</string>
+    <string name="spt_choix_1_n5">Basket,Baseball,Ice Hokey</string>
+
+    <string name="spt_q_2_n5">Qui l\'Angleterre a-t-elle battu en finale de la coupe de monde de 1966 ?</string>
+    <string name="spt_r_2_n5">L\'allemagne de l\'Ouest</string>
+    <string name="spt_choix_2_n5">Le Brésil,L\'Italie,Les Pays-Bas</string>
+
+    <string name="spt_q_3_n5">Qui est le premier athlète à être nommé all-star dans une ligue majeure et à jouer dans un Bowl NFL pro ?</string>
+    <string name="spt_r_3_n5">Bo Jackson</string>
+    <string name="spt_choix_3_n5">Deion Sanders,Barry Bonds,Jim Thorpe</string>
+
+    <string name="spt_q_4_n5">Où se sont tenus les premiers jeux paralympiques en 1961 ?</string>
+    <string name="spt_r_4_n5">Rome</string>
+    <string name="spt_choix_4_n5">Melbourne,New York,Munich</string>
+
+    <string name="spt_q_5_n5">En 1895, Lewis Rober a inventé quel sport pour aider ses collègues pompiers à rester en forme ?</string>
+    <string name="spt_r_5_n5">La balle molle</string>
+    <string name="spt_choix_5_n5">Hockey sur gazon,Handball,Beach volley</string>
+
+    <string name="spt_q_6_n5">Depuis 1950, qui a été en compétition pour un titre de champion du monde appelé le Bermuda Bowl ?</string>
+    <string name="spt_r_6_n5">Des joueurs de bridge</string>
+    <string name="spt_choix_6_n5">Des pêcheurs au leurre,Des Plaisanciers,Des culturistes</string>
+
+    <string name="spt_q_7_n5">Le Long On, le Silly Mid On et le gardien de guichet sont des termes utilisés dans quel sport ?</string>
+    <string name="spt_r_7_n5">Le cricket</string>
+    <string name="spt_choix_7_n5">Le golf,Le base-ball,Le tennis</string>
+
+    <string name="spt_q_8_n5">Combien de médailles d\'or olympiques Mark Spitz a-t-il gagnées à Munich en 1972 ?</string>
+    <string name="spt_r_8_n5">7</string>
+    <string name="spt_choix_8_n5">5,6,8</string>
+
+    <string name="spt_q_9_n5">Comment s\'appel le stade de l\'Ajax Amsterdam ?</string>
+    <string name="spt_r_9_n5">Amsterdam Arena</string>
+    <string name="spt_choix_9_n5">Old Trafford,Stade Greland,Allianz Arena</string>
+
+    <string name="spt_q_10_n5">Le Korfball, jeu néerlandais dont les équipes sont constituées d\'autant d\'hommes que de femmes, ressemble à quel sport ?</string>
+    <string name="spt_r_10_n5">Basket</string>
+    <string name="spt_choix_10_n5">Baseball,Hockey sur glace,Football américan</string>
+
+
+</resources>

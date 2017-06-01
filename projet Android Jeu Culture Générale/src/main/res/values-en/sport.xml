@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name = "spt_q_1_n1"> The Lakers play their home games in NBA which city? </string>
+        <string name = "spt_r_1_n1"> Los Angeles </string>
+        <string name = "spt_choix_1_n1"> Denver, Detroit, Boston </string>
+
+        <string name = "spt_q_2_n1"> Which of these football clubs playing in the derby "El Classico"? </string>
+        <string name = "spt_r_2_n1"> Real Madrid </string>
+        <string name = "spt_choix_2_n1"> Bayern Munich, Manchester United, Paris Saint-Germain </string>
+
+        <string name = "spt_q_3_n1"> Don King is nearby famous promoter which sport? </string>
+        <string name = "spt_r_3_n1"> Boxing </string>
+        <string name = "spt_choix_3_n1"> Tennis, Fight, Golf </string>
+
+        <string name = "spt_q_4_n1"> Michael Jordan pincipalement is associated with which sport? </string>
+        <string name = "spt_r_4_n1"> Basketball </string>
+        <string name = "spt_choix_4_n1"> Football american, baseball, ice hokey </string>
+
+        <string name = "spt_q_5_n1"> What discipline normally is NOT part of the triathlon? </string>
+        <string name = "spt_r_5_n1"> skiing </string>
+        <string name = "spt_choix_5_n1"> Running, Cycling, Swimming </string>
+
+        <string name = "spt_q_6_n1"> What is the main color of home jerseys Chelsea FC? </string>
+        <string name = "spt_r_6_n1"> Blue </string>
+        <string name = "spt_choix_6_n1"> Black, Green, Red </string>
+
+        <string name = "spt_q_7_n1"> What is the nationality of the famous footballer Cristiano Ronaldo? </string>
+        <string name = "spt_r_7_n1"> Portuguese </string>
+        <string name = "spt_choix_7_n1"> Argetine, Spanish, American </string>
+
+        <string name = "spt_q_8_n1"> The NBA is the principal North American liigue in what sport? </string>
+        <string name = "spt_r_8_n1"> Basketball </string>
+        <string name = "spt_choix_8_n1"> American Football, Baseball, Hockey </string>
+
+        <string name = "spt_q_9_n1"> Which driver has won the largest number of Formula 1 championships in his career? </string>
+        <string name = "spt_r_9_n1"> Michael Schumacher </string>
+        <string name = "spt_choix_9_n1"> Juan Fangio, Alain Prost, Ayrton Senna </string>
+
+        <string name = "spt_q_10_n1"> What country african FIFA to organize the 2010 World Cup? </string>
+        <string name = "spt_r_10_n1"> L  South Africa </string>
+        <string name = "spt_choix_10_n1"> The Senegal, Tunisia, Nigeria </string>
+
+
+
+
+
+
+
+
+
+        <string name = "spt_q_1_n2"> If you look at a dog race track, Which species is probably running around? </string>
+        <string name = "spt_r_1_n2"> The Greyhounds </string>
+        <string name = "spt_choix_1_n2"> The Whippets, The St. Bernard Salukis Des </string>
+
+        <string name = "spt_q_2_n2"> Who  s Métis athlete  s is described as "Cablinasien" Causacian, black, Indian and Asian </string>?
+        <string name = "spt_r_2_n2"> Tiger Woods </string>
+        <string name = "spt_choix_2_n2"> Rock, Grant Fuhr, Franco Harris </string>
+
+        <string name = "spt_q_3_n2"> Which football club Thierry Henry he played between 1999 and 2007? </string>
+        <string name = "spt_r_3_n2"> Arsenal </string>
+        <string name = "spt_choix_3_n2"> Marseille, Bayern Munich, Juventus </string>
+
+        <string name = "spt_q_4_n2"> Which city hosted the Olympic games  s summer 2004? </string>
+        <string name = "spt_r_4_n2"> Athens </string>
+        <string name = "spt_choix_4_n2"> Paris, London, Barcelona </string>
+
+        <string name = "spt_q_5_n2"> Japan co-hosted the 2002 World Cup with any other nation? </string>
+        <string name = "spt_r_5_n2"> South Korea </string>
+        <string name = "spt_choix_5_n2"> China, Malaysia, L  Australia </string>
+
+        <string name = "spt_q_6_n2"> Which country won most often the world cup soccer? </string>
+        <string name = "spt_r_6_n2"> Brazil </string>
+        <string name = "spt_choix_6_n2"> Argentina, Italy, Germany </string>
+
+        <string name = "spt_q_7_n2"> How many baseball gloves can be manufactured with the leather of a single cow? </string>
+        <string name = "spt_r_7_n2"> 5 </string>
+        <string name = "spt_choix_7_n2"> 10,15,25 </string>
+
+        <string name = "spt_q_8_n2"> what sport The rules were established by the London Swimming Club in 1870? </string>
+        <string name = "spt_r_8_n2"> The water polo </string>
+        <string name = "spt_choix_8_n2"> Locusts, Rugby, Soccer </string>
+
+        <string name = "spt_q_9_n2"> Who was  s coach  s team Manchester United from 1986 to 2013? </string>
+        <string name = "spt_r_9_n2"> Alex Ferguson </string>
+        <string name = "spt_choix_9_n2"> Ron Atkinson, David Moyes, Matt Busby </string>
+
+        <string name = "spt_q_10_n2"> How often held the American Super Bowl? </string>
+        <string name = "spt_r_10_n2"> every year </string>
+        <string name = "spt_choix_10_n2"> Every two years, every four years, every five years </string>
+
+
+
+
+
+
+
+
+        <string name = "spt_q_1_n3"> The course of what marathon ends at Copley Square in the Back Bay area? </string>
+        <string name = "spt_r_1_n3"> Boston Marathon </string>
+        <string name = "spt_choix_1_n3"> The London Marathon The New York Marathon, Chicago Marathon </string>
+
+        <string name = "spt_q_2_n3"> What is the name of the tennis players Venus and Serena sisters? </string>
+        <string name = "spt_r_2_n3"> Williams </string>
+        <string name = "spt_choix_2_n3"> Sela, Johnson, Smith </string>
+
+        <string name = "spt_q_3_n3"> During the Asian Games  s winter of 2007, Kazakhistan wiped the Thailand 52-1 in what sport? </string>
+        <string name = "spt_r_3_n3"> Hockey </string>
+        <string name = "spt_choix_3_n3"> Lacrosse, Basketball, Curling </string>
+
+        <string name = "spt_q_4_n3"> What Thai city hosted the most Souvant games  s Asia? </string>
+        <string name = "spt_r_4_n3"> Bangkok </string>
+        <string name = "spt_choix_4_n3"> Saigon, Rangoon, Phnom Penh </string>
+
+        <string name = "spt_q_5_n3"> In 2008, what was  s most populous state american  s having no team in one of the major sports leagues? </string>
+        <string name = "spt_r_5_n3"> Virginia </string>
+        <string name = "spt_choix_5_n3"> Nevada, The Cennecticut, L  Alabama </string>
+
+        <string name = "spt_q_6_n3"> In 1986, China lifted  s ban from 1959 to practice any sport? </string>
+        <string name = "spt_r_6_n3"> Boxing </string>
+        <string name = "spt_choix_6_n3"> Rugby, L  arc, Football </string>
+
+        <string name = "spt_q_7_n3"> In 2003, Which is the first landlocked country to have won  s America  s Cup? </string>
+        <string name = "spt_r_7_n3"> Swiss </string>
+        <string name = "spt_choix_7_n3"> Australia, Italy, France </string>
+
+        <string name = "spt_q_8_n3"> What swimming race n  has not been introduced to the Olympic Games before 1956? </string>
+        <string name = "spt_r_8_n3"> The </string> butterfly
+        <string name = "spt_choix_8_n3"> Breaststroke, The freestyle, swimming the dog </string>
+
+        <string name = "spt_q_9_n3"> How continent belonged to countries boycotted the Olympics  was in 1976? </string>
+        <string name = "spt_r_9_n3"> Africa </string>
+        <string name = "spt_choix_9_n3"> Asia, Europe, South America </string>
+
+        <string name = "spt_q_10_n3"> The world sprint champion Usain Bolt is from what country? </string>
+        <string name = "spt_r_10_n3"> The Jamaica </string>
+        <string name = "spt_choix_10_n3"> Cuba, The Bahamas, Trinidad </string>
+
+
+
+
+
+
+
+
+        <string name = "spt_q_1_n4"> In which city of the United States can you find  s team baseball Padres? </string>
+        <string name = "spt_r_1_n4"> San Diego </string>
+        <string name = "spt_choix_1_n4"> Los Angeles, New York, Detroit </string>
+
+        <string name = "spt_q_2_n4"> In the Tour de France, what color is the jersey of the overall leader? </string>
+        <string name = "spt_r_2_n4"> Yellow </string>
+        <string name = "spt_choix_2_n4"> White, Green, Blue </string>
+
+        <string name = "spt_q_3_n4"> What is the sport practiced by the Harlem Globetrotters? </string>
+        <string name = "spt_r_3_n4"> Basketball </string>
+        <string name = "spt_choix_3_n4"> Baseball, Football american, Ice Hokey </string>
+
+        <string name = "spt_q_4_n4"> What does the "H" in the name "NHL"? </string>
+        <string name = "spt_r_4_n4"> Hockey </string>
+        <string name = "spt_choix_4_n4"> Horse racing, hurling, handball </string>
+
+        <string name = "spt_q_5_n4"> In which sport three successive strikes  s call a "turkey"? </string>
+        <string name = "spt_r_5_n4"> The bowling </string>
+        <string name = "spt_choix_5_n4"> Baseball, Golf, Locusts </string>
+
+        <string name = "spt_q_6_n4"> For which club of Major League Soccer David Beckham he played? </string>
+        <string name = "spt_r_6_n4"> LA Galaxy </string>
+        <string name = "spt_choix_6_n4"> DC United, Red Bull NY, Chicago Fire </string>
+
+        <string name = "spt_q_7_n4"> Wayne Gretzky is a former champion of any sport? </string>
+        <string name = "spt_r_7_n4"> Ice Hockey </string>
+        <string name = "spt_choix_7_n4"> Basketball, Football american, Baseball </string>
+
+        <string name = "spt_q_8_n4"> What country  s place the World Cup football in 1994? </string>
+        <string name = "spt_r_8_n4"> USA </string>
+        <string name = "spt_choix_8_n4"> Mexico, Italy, France </string>
+
+        <string name = "spt_q_9_n4"> What game should you hit the ball with a bat and run and come back as many times as possible between two machines? </string>
+        <string name = "spt_r_9_n4"> Cricket </string>
+        <string name = "spt_choix_9_n4"> Pelota, Curling, Rugby </string>
+
+        <string name = "spt_q_10_n4"> How many players are there in a polo team? </string>
+        <string name = "spt_r_10_n4"> 4 </string>
+        <string name = "spt_choix_10_n4"> 2,8,16 </string>
+
+
+
+
+
+
+
+
+        <string name = "spt_q_1_n5"> What is the sport practiced by  s team "Miami Dolphins"? </string>
+        <string name = "spt_r_1_n5"> Football american </string>
+        <string name = "spt_choix_1_n5"> Basketball, Baseball, Ice Hokey </string>
+
+        <string name = "spt_q_2_n5"> Who  s England she beat in the final of the world cup 1966? </string>
+        <string name = "spt_r_2_n5"> L  germany  s West </string>
+        <string name = "spt_choix_2_n5"> Brazil, L  Italy, The Netherlands </string>
+
+        <string name = "spt_q_3_n5"> Who was the first athlete to be named all-star in a major league and playing in a Bowl NFL pro? </string>
+        <string name = "spt_r_3_n5"> Bo Jackson </string>
+        <string name = "spt_choix_3_n5"> Deion Sanders, Barry Bonds, Jim Thorpe </string>
+
+        <string name = "spt_q_4_n5"> Where are held the first Paralympic Games in 1961? </string>
+        <string name = "spt_r_4_n5"> Rome </string>
+        <string name = "spt_choix_4_n5"> Melbourne, New York, Munich </string>
+
+        <string name = "spt_q_5_n5"> In 1895, Lewis Rober invented what sport to help his fellow firefighters stay in shape? </string>
+        <string name = "spt_r_5_n5"> The softball </string>
+        <string name = "spt_choix_5_n5"> Field Hockey, Handball, Beach volleyball </string>
+
+        <string name = "spt_q_6_n5"> Since 1950, which was competing for a title of world champion called the Bermuda Bowl? </string>
+        <string name = "spt_r_6_n5"> Players Bridge </string>
+        <string name = "spt_choix_6_n5"> Fishermen lure, The Boaters, bodybuilders Des </string>
+
+        <string name = "spt_q_7_n5"> The Long On, Silly Mid On and wicketkeeper are terms used in what sport? </string>
+        <string name = "spt_r_7_n5"> Cricket </string>
+        <string name = "spt_choix_7_n5"> Golf, Baseball, The </string> tennis
+
+        <string name = "spt_q_8_n5"> How  gold medals Mark Spitz Olympic-he won in Munich in 1972? </string>
+        <string name = "spt_r_8_n5"> 7 </string>
+        <string name = "spt_choix_8_n5"> 5,6,8 </string>
+
+        <string name = "spt_q_9_n5"> How  s appeal stage  s Ajax Amsterdam? </string>
+        <string name = "spt_r_9_n5"> Amsterdam Arena </string>
+        <string name = "spt_choix_9_n5"> Old Trafford, Greland Stadium Allianz Arena </string>
+
+        <string name = "spt_q_10_n5"> The Korfball, Dutch game whose teams are composed d  as ​​ s men than women, like any sport? </string>
+        <string name = "spt_r_10_n5"> Basketball </string>
+        <string name = "spt_choix_10_n5"> Baseball, Ice Hockey, Football american </string>
+
+
+</resources>

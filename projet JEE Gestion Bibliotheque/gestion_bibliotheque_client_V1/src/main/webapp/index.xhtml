@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:util="http://java.sun.com/jsf/composite/tag"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Page d'accueil</title>
+    </h:head>
+    <h:body>
+    	<h1>Accueil</h1>
+    	<h3> Connexion</h3>
+    	<h:form>
+	    	<h:selectOneRadio id="subscriptions" value="#{bean_authentification.logintype}">
+		        <f:selectItem id="item1" itemLabel="Administrateur" itemValue="1" />
+		        <!-- <f:selectItem id="item2" itemLabel="Client" itemValue="2" />  -->
+		        <f:selectItem id="item3" itemLabel="Employe" itemValue="3" />
+		    </h:selectOneRadio>
+    		login : <h:inputText value="#{bean_authentification.login}" required="true" requiredMessage="login obligatoire" id="in1"/> <h:messages for="in1"/><br/>
+    		password : <h:inputText value="#{bean_authentification.mdp}" required="true" requiredMessage="Mot de passe obligatoire" id="in2"/> <h:messages for="in2"/><br/>
+    		<h:commandButton action="#{bean_authentification.getVerif}" value="valider" />
+    	</h:form>
+    	<br/>
+    	<br/>
+    </h:body>
+</html>

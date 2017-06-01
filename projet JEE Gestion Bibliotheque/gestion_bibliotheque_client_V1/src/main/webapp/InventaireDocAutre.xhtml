@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:util="http://java.sun.com/jsf/composite/tag"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Employe</title>
+    </h:head>
+    <h:body>
+    	<h1> Romans </h1>
+    	<!--  <p>BONJOUR Mr  #{bean_authentification.login}  </p> -->		
+		
+    	<h:dataTable id="table1" value="#{bean_Docs.listedocs}" var="docs" border="1">
+		    <f:facet name="header">
+		        <h:outputText value="LISTE DES DOCUMENTS AUTRES" />
+		    </f:facet>
+		    <h:column>
+		        <f:facet name="header">
+		            <h:outputText value="Identifiant" />
+		        </f:facet>
+		        <h:outputText value="#{docs.id}" />
+		    </h:column>
+		    <h:column>
+		        <f:facet name="header">
+		            <h:outputText value="Edition" />
+		        </f:facet>
+		        <h:outputText value="#{docs.edition}" />
+		    </h:column>
+		    <h:column>
+		        <f:facet name="header">
+		            <h:outputText value="Nombre en stock" />
+		        </f:facet>
+		        <h:outputText value="#{docs.nombrestock}" />
+		    </h:column>
+		    <h:column>
+		        <f:facet name="header">
+		            <h:outputText value="Type" />
+		        </f:facet>
+		        <h:outputText value="#{docs.typedoc}" />
+		    </h:column>
+		    
+		    <h:column>
+		        <f:facet name="header">
+		            <h:outputText value="description" />
+		        </f:facet>
+		        <h:outputText value="#{typedoc.description}" />
+		    </h:column>
+		    
+		</h:dataTable>
+		
+		<!--  <h:commandLink action="#{bean_Roman.recupererListeromans}">retour</h:commandLink>-->
+    	
+    </h:body>
+</html>

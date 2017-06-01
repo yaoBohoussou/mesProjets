@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<faces-config version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+  http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+ <application/>
+ 
+	 <converter>
+	 	<converter-id>AdresseConverter</converter-id>
+	 	<converter-class>gestion_bibliotheque_client_V1.AdresseConverter</converter-class>
+	 </converter>
+	 
+	 <converter>
+	 	<converter-id>convertisseur_de_dates</converter-id>
+	 	<converter-class>gestion_bibliotheque_client_V1.DateConverter</converter-class>
+	 </converter>
+	 
+	 <validator>
+ 		<validator-id>AdresseValidator</validator-id>
+ 		<validator-class>gestion_bibliotheque_client_V1.AdresseValidator</validator-class>
+ 	</validator>
+
+    <navigation-rule>
+   
+   		<from-view-id>index.xhtml</from-view-id>
+   		
+   		<navigation-case>
+      		<from-action>#{bean_authentification.getVerif}</from-action>
+      		<from-outcome>client</from-outcome>
+      		<to-view-id>Client.xhtml</to-view-id>
+   		</navigation-case>
+   		
+   		<navigation-case>
+      		<from-action>#{bean_authentification.getVerif}</from-action>
+      		<from-outcome>employe</from-outcome>
+      		<to-view-id>Employe.xhtml</to-view-id>
+   		</navigation-case>
+   		
+   		<navigation-case>
+      		<from-action>#{bean_authentification.getVerif}</from-action>
+      		<from-outcome>admin</from-outcome>
+      		<to-view-id>admin.xhtml</to-view-id>
+   		</navigation-case>
+   		
+   		<navigation-case>
+      		<from-action>#{bean_authentification.getVerif}</from-action>
+      		<from-outcome>eror</from-outcome>
+      		<to-view-id>error.xhtml</to-view-id>
+   		</navigation-case>
+   		
+   	</navigation-rule>
+   	
+   	<navigation-rule>
+   
+   		<from-view-id>Employe.xhtml</from-view-id>
+   		
+   		<navigation-case>
+      		<from-action>#{beanEmploye.deconnexion}</from-action>
+      		<from-outcome>logout</from-outcome>
+      		<to-view-id>index.xhtml</to-view-id>
+   		</navigation-case>
+   		  		
+   	</navigation-rule>
+   	
+   	<navigation-rule>
+   
+   		<from-view-id>admin.xhtml</from-view-id>
+   		
+   		<navigation-case>
+      		<from-action>#{beanAdmin.deconnexion}</from-action>
+      		<from-outcome>logout</from-outcome>
+      		<to-view-id>index.xhtml</to-view-id>
+   		</navigation-case>
+   		
+   		<navigation-case>
+      		<from-action>#{beanAdmin.modeemploye}</from-action>
+      		<from-outcome>mode_emp</from-outcome>
+      		<to-view-id>Employe.xhtml</to-view-id>
+   		</navigation-case>
+   		  		
+   	</navigation-rule>
+</faces-config>

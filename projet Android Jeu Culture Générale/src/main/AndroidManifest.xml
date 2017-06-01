@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yannbohoussou.projetandroid_new">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/quiz"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AvancementModeNormalActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_avancement_mode_normal" >
+        </activity>
+        <activity
+            android:name=".ChoixCategorieLayoutActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_choix_categorie_layout" >
+        </activity>
+        <activity
+            android:name=".ChoixJoueurModeSurvieActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_choix_joueur_mode_survie" >
+        </activity>
+        <activity
+            android:name=".EnigmeLayoutActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_enigme_layout" >
+        </activity>
+        <activity
+            android:name=".Question3rActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_question3r" >
+        </activity>
+        <activity
+            android:name=".Question4rActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_question4r" >
+        </activity>
+        <activity
+            android:name=".Question5rActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_question5r" >
+        </activity>
+        <activity
+            android:name=".ScoresActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_scores" >
+        </activity>
+        <activity
+            android:name=".Question6rActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_question6r" >
+        </activity>
+        <activity
+            android:name=".Question8rActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_question8r" >
+        </activity>
+        <activity
+            android:name=".ModeNormal_choixTheme"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".Partie_niveau1"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".Partie_niveau2"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Partie_niveau3"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Partie_niveau4"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".Partie_niveau5"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".enigme_activity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".SurvivalActivityActivity"
+            android:label="@string/title_activity_survival_activity" >
+        </activity>
+
+        <activity
+            android:name=".Parametre"
+            android:label="@string/title_activity_survival_activity" >
+        </activity>
+
+    </application>
+
+</manifest>

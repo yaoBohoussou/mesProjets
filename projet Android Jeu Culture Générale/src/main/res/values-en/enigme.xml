@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "enigme_q_1"> I have 2 feet, 6 legs, eight arms, two heads and one eye, who am I? </string>
+    <string name = "enigme_r_1"> LIAR </string>
+
+    <string name = "enigme_q_2"> I have something in my pocket but my pocket is empty, What is it? </string>
+    <string name = "enigme_r_2"> HOLE </string>
+
+    <string name = "enigme_q_3"> There is me 2 times a year, 1 time in the week, but not in the day ... Who am I? </string>
+    <string name = "enigme_r_3"> N </string>
+
+    <string name = "enigme_q_4"> Better than God, worse than the devil, The poor have it, the rich need it, And if you eat, you die. </string>
+    <string name = "enigme_r_4"> Nothing </string>
+
+    <string name = "enigme_q_5"> How can you put drops of water in an empty glass? </string>
+    <string name = "enigme_r_5"> 1 </string>
+
+    <string name = "enigme_q_6"> How many square theres there in a 4x4 grid? </string>
+    <string name = "enigme_r_6"> 30 </string>
+
+    <string name = "enigme_q_7"> Your doctor gave you a treatment of three capsules. we must take one every half hour. What is the treatment duration (in minutes)? </string>
+    <string name = "enigme_r_7"> 60 </string>
+
+    <string name = "enigme_q_8"> father was 30 years older than his son. Father and son together have 36an. What is the age of the father? </string>
+    <string name = "enigme_r_8"> 33 </string>
+
+    <string name = "enigme_q_9"> Abdou 10 years, his brother Akram half his age. When Abdou will be 10 times older, how old will Akram? </string>
+    <string name = "enigme_r_9"> 95 </string>
+
+    <string name = "enigme_q_10"> During a chess competition, 10 players made one party against the others. How many games have been played? </string>
+    <string name = "enigme_r_10"> 45 </string>
+</resources>

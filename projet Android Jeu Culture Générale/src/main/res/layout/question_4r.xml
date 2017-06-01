@@ -1,0 +1,169 @@
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:fillViewport="true">
+    
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/black_glass">
+
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView 
+            android:id="@+id/heart1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"/>
+        <ImageView 
+            android:id="@+id/heart2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"/>
+        <ImageView 
+            android:id="@+id/heart3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/heart"/>
+        <View 
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <ImageView 
+            android:id="@+id/sphere1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gray_sphere"/>
+        <ImageView 
+            android:id="@+id/sphere2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gray_sphere"/>
+        <ImageView 
+            android:id="@+id/sphere3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gray_sphere"/>
+        <ImageView 
+            android:id="@+id/sphere4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gray_sphere"/>
+        <ImageView 
+            android:id="@+id/sphere5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gray_sphere"/>
+    </LinearLayout>
+
+    <LinearLayout  
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/theme"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/categorie_background" />
+        <View 
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"/>
+        <TextView
+            android:id="@+id/niveau"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            android:background="@drawable/niveau_background"
+            android:text="niveau 2" />
+
+    </LinearLayout>
+
+     <TextView
+        android:id="@+id/chrono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="24sp"
+        android:textColor="#ff0000"
+		android:layout_gravity="center_horizontal"
+        android:text="00:30" />
+
+    <Chronometer
+        android:id="@+id/chrono1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="#ff0000"
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:padding="10dp"       
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:text="question"
+        android:background="@drawable/question1_backgound"
+        android:layout_gravity="center" />
+
+    <View 
+	    android:layout_width="0sp"
+	    android:layout_height="0sp"
+	    android:layout_weight="1"/>
+
+
+        <TextView
+            android:id="@+id/reponse1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="reponse1"
+            android:background="@drawable/answer"/>
+        <TextView
+            android:id="@+id/reponse2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="reponse2"
+            android:background="@drawable/answer" 
+             />
+
+    <TextView
+        android:id="@+id/reponse3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:clickable="true"
+        android:text="reponse3"
+        android:background="@drawable/answer" />
+
+    
+        <TextView
+            android:id="@+id/reponse4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:text="reponse4"
+        android:background="@drawable/answer"
+        android:layout_gravity="bottom" />
+
+
+</LinearLayout>
+</ScrollView>

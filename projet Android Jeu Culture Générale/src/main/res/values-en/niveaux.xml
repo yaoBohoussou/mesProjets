@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="niveau1"> Level 1 </string>
+    <string name="niveau2"> Level 2 </string>
+    <string name="niveau3"> Level 3 </string>
+    <string name="niveau4"> Level 4 </string>
+    <string name="niveau5"> Level 5 </string>
+</resources>

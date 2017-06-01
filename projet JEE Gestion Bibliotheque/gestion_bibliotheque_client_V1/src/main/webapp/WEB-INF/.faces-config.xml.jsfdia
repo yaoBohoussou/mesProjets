@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:index.xhtml" PATH="index.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:index.xhtml:0" NAME="item" PATH="index.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="client:#{bean_authentification.getVerif}:Client.xhtml"
+    NAME="output" PATH="Client.xhtml" TARGET="rules:Client.xhtml"
+    TITLE="#{bean_authentification.getVerif}:client" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="employe:#{bean_authentification.getVerif}:Employe.xhtml"
+    NAME="output1" PATH="Employe.xhtml" TARGET="rules:Employe.xhtml"
+    TITLE="#{bean_authentification.getVerif}:employe" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="admin:#{bean_authentification.getVerif}:admin.xhtml"
+    NAME="output2" PATH="admin.xhtml" TARGET="rules:admin.xhtml"
+    TITLE="#{bean_authentification.getVerif}:admin" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="eror:#{bean_authentification.getVerif}:error.xhtml"
+    NAME="output3" PATH="error.xhtml" TARGET="rules:error.xhtml"
+    TITLE="#{bean_authentification.getVerif}:eror" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:Client.xhtml" PATH="Client.xhtml"
+  SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:Employe.xhtml" PATH="Employe.xhtml"
+  SHAPE="256,177,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:Employe.xhtml:0" NAME="item"
+   PATH="Employe.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT
+    ID="logout:#{beanEmploye.deconnexion}:index.xhtml" NAME="output"
+    PATH="index.xhtml" TARGET="rules:index.xhtml"
+    TITLE="#{beanEmploye.deconnexion}:logout" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:admin.xhtml" PATH="admin.xhtml"
+  SHAPE="272,321,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:admin.xhtml:0" NAME="item" PATH="admin.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="logout:#{beanAdmin.deconnexion}:index.xhtml"
+    NAME="output" PATH="index.xhtml" TARGET="rules:index.xhtml"
+    TITLE="#{beanAdmin.deconnexion}:logout" model-entity="JSFProcessItemOutput"/>
+   <PROCESS-ITEM-OUTPUT
+    ID="mode_emp:#{beanAdmin.modeemploye}:Employe.xhtml" NAME="output1"
+    PATH="Employe.xhtml" TARGET="rules:Employe.xhtml"
+    TITLE="#{beanAdmin.modeemploye}:mode_emp" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:error.xhtml" PATH="error.xhtml"
+  SHAPE="288,465,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>

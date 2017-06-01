@@ -1,0 +1,115 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/black_glass">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/quiz"
+            android:layout_gravity="center|top"
+            />
+
+        <TextView
+            android:id="@+id/nomJeu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="@string/app_name"
+            tools:context=".MainActivity"
+            android:layout_gravity="center|top"/>
+
+
+        <Button
+            android:id="@+id/mode1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:text="@string/mode1"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button1"
+            android:onClick="survival"/>
+
+        <Button
+            android:id="@+id/mode2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:text="@string/mode2"
+            android:layout_gravity="center_horizontal"
+            android:onClick="campagne"
+            android:background="@drawable/button2" />
+
+        <Button
+            android:id="@+id/mode3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/mode3"
+            android:background="@drawable/button3"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+
+
+
+
+            <Button
+                android:id="@+id/Mscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/Mscore"
+                android:onClick="score"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/param"
+                android:onClick="parameters"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                />
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/exit"
+                android:onClick="exit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

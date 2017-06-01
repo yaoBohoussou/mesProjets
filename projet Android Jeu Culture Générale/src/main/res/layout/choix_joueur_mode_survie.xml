@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_glass"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/nomJeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginLeft="130sp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:text="@string/nouveauJoueur"
+        android:textColor="#00FFC6"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic"/>
+        
+
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        
+        <EditText
+            android:id="@+id/editPseudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/pseudo"
+            android:textColor="#FFFFFF"
+            android:inputType="textMultiLine"
+            android:layout_marginLeft="10sp"
+            android:textSize="30sp"
+            android:lines="1" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/Jouer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10sp"
+            android:text="@string/jouer"
+            android:background="@drawable/button1"
+            android:onClick="nouveauJoueur" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="30sp"
+        android:text="@string/ancienJoueur"
+        android:layout_gravity="center|top" 
+        android:textColor="#00FFC6"
+        android:textStyle="italic"/>
+    
+
+    <ListView
+        android:id="@+id/listScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector"
+        android:scrollingCache="true" >
+    </ListView>
+
+</LinearLayout>

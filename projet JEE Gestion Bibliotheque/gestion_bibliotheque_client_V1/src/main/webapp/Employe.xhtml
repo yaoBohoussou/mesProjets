@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:util="http://java.sun.com/jsf/composite/tag"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <meta charset="utf-8"/>
+		<title>EMPLOYE</title>
+		<link rel="stylesheet" href="employe.css" />
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    </h:head>
+    <h:body overflow="scroll">
+    	
+    	
+    	<header>
+			<h1><span class ="espace_employe"> ESPACE EMPLOYE </span></h1>
+			<div>
+				<span class ="message_bienvenue"> Bienvenue  #{beanEmploye.nomemploye} </span>
+				<span class ="deconnexion" > 
+					<h:form>
+						<h:commandLink action="#{beanEmploye.deconnexion}">deconnexion </h:commandLink> <!-- value="#{messages.checkoutLabel} a ajouter -->
+					</h:form>
+				</span>
+			</div>
+		</header>
+		
+		<section>
+			<div class="fonctions_employe">
+				<div class = "modClient">
+						<FIELDSET>
+							<legend>Modifier Client</legend>
+							<h:form>
+							<FIELDSET>
+								<legend>Identifiant du Client</legend>
+								<h:outputLabel value="Identifiant du client: " /> 
+								<h:inputText value="#{beanEmploye.idancienclient}" required="true" requiredMessage="id obligatoire" id="idClientmod" /> 
+								<h:messages for="idClientmod"/><br/>
+							</FIELDSET>
+							<FIELDSET>
+								<legend> Données qui on été modifiées </legend>
+									<h:selectManyCheckbox value="#{beanEmploye.listdesmods}">
+										<f:selectItem id="nom" itemLabel="NOM" itemValue="1" />
+								        <f:selectItem id="Prenoms" itemLabel="Prenoms" itemValue="2" />
+								        <f:selectItem id="dateNaissance" itemLabel="Birthdate" itemValue="3" />
+								       	<f:selectItem id="Adresse" itemLabel="Adresse" itemValue="4" />
+								        <f:selectItem id="mail" itemLabel="e-mail" itemValue="5" />
+								        <f:selectItem id="cni" itemLabel="CNI" itemValue="6" />
+									</h:selectManyCheckbox>
+							</FIELDSET>
+							<FIELDSET>
+								<legend>Nouvelles données </legend>
+								<h:outputLabel value="Nom du client: " /> <h:inputText  value="#{beanEmploye.nom}" required="false" requiredMessage="nom obligatoire" id="nommod"/><br/>
+								<h:outputLabel value="prenoms du client: " /> <h:inputText  value="#{beanEmploye.prenoms}" required="false" requiredMessage="prenoms obligatoire" id="prenommod"/><br/>
+								
+								<h:outputLabel value="date de naissance du client: " /> 
+								<h:inputText  value="#{beanEmploye.dateNaissance}" required="false" requiredMessage="date de naissance obligatoire" id="dnaissmod">
+									<f:converter converterId="convertisseur_de_dates" />
+								</h:inputText><br/>
+								
+								<h:outputLabel value="Adresse du client: " /> 
+								<h:inputText  value="#{beanEmploye.adr}" required="false" requiredMessage="Adresse obligatoire" id="adrmod">
+									<f:converter converterId="AdresseConverter" />
+								</h:inputText><br/>
+								<h:outputLabel value="e-mail du client: " /> <h:inputText  value="#{beanEmploye.mail}" required="false" requiredMessage="email obligatoire" id="mailmod"/><br/>
+								<h:outputLabel value="CNI du client: " /> <h:inputText  value="#{beanEmploye.cni}" required="false" requiredMessage="cni obligatoire" id="cnimod"/><br/>
+							
+								<h:commandButton  action="#{beanEmploye.modifier_client}" value="valider" />
+							</FIELDSET>
+							</h:form>
+						</FIELDSET>					
+				</div>
+				
+				<div class = "Emprunt">			
+					<div class = "Nouveau_Client">
+						<p> <b>NOUVEAU CLIENT</b></p>
+						<h:form>
+							<fieldset>
+								<legend>Données Client</legend>
+								<!--générer l'ID -->
+								<h:outputLabel value="Nom du client: " /> <h:inputText  value="#{beanEmploye.nom}" required="true" requiredMessage="nom obligatoire" id="nom0"/><br/>
+								<h:outputLabel value="prenoms du client: " /> <h:inputText  value="#{beanEmploye.prenoms}" required="true" requiredMessage="prenoms obligatoire" id="prenom0"/><br/>
+								
+								<h:outputLabel value="date de naissance du client: " /> 
+								<h:inputText  value="#{beanEmploye.dateNaissance}" required="true" requiredMessage="date de naissance obligatoire" id="dnaiss0">
+									<f:converter converterId="convertisseur_de_dates" />
+								</h:inputText><br/>
+								
+								<h:outputLabel value="Adresse du client: " /> 
+								<h:inputText  value="#{beanEmploye.adr}"  required="true" requiredMessage="Adresse obligatoire" id="adr0">
+									<f:converter converterId="AdresseConverter" />
+									<f:validator validatorId="AdresseValidator" />
+								</h:inputText><br/>
+								<h:outputLabel value="e-mail du client: " /> <h:inputText  value="#{beanEmploye.mail}" required="true" requiredMessage="email obligatoire" id="mail0"/><br/>
+								<h:outputLabel value="CNI du client: " /> <h:inputText  value="#{beanEmploye.cni}" required="true" requiredMessage="cni obligatoire" id="cni0"/><br/>
+							</fieldset>
+
+							<fieldset>
+								<legend>Identifiant du  Livre</legend>
+								<h:outputLabel value="Identifiant du livre" /> <h:inputText  value="#{beanEmploye.idroman}" required="true" requiredMessage="Id du livre obligatoire" id="idLivre0"/><br/>
+								<h:outputLabel value="duree emprunt" /> <h:inputText  value="#{beanEmploye.duree}" required="true" requiredMessage="duree de l'emprunt oobligatoire" id="duree0"/><br/>							
+							</fieldset>
+							<h:commandButton  action="#{beanEmploye.enregistrer_emprunt_nouveau_client}" value="Enregistrer Emprunt" />
+						</h:form>
+					</div>
+					
+					<div class = "Ancien_Client">
+						<p><b>Ancien CLIENT</b></p>
+						<h:form>
+							<fieldset>
+								<legend>Données Client</legend>
+										<h:outputLabel value="Identifiant du client: " /> 
+										<h:inputText  value="#{beanEmploye.idancienclient}" id="idClient1"/><br/>
+								</fieldset>
+							
+							<fieldset>
+								<legend>Identifiant du  Livre</legend>
+								<h:outputLabel value="Identifiant du livre" /> 
+								<h:inputText  value="#{beanEmploye.idlivre2}" required="true" requiredMessage="Id du livre obligatoire" id="idLivre"/><br/>
+								<h:outputLabel value="duree emprunt" /> <h:inputText  value="#{beanEmploye.duree2}" required="true" requiredMessage="duree de l'emprunt oobligatoire" id="duree1"/><br/>							
+							</fieldset>
+							<h:commandButton  action="#{beanEmploye.enregistrer_emprunt_ancien_client}" value="Enregistrer Emprunt" />	
+						</h:form>	
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="fonctions_employe">
+				<div class="liste_livres" >					
+					<h:dataTable id="table1" value="#{beanEmploye.listelivres}" var="roman" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES ROMANS" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{roman.id}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Edition" />
+					        </f:facet>
+					        <h:outputText value="#{roman.edition}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Nombre en stock" />
+					        </f:facet>
+					        <h:outputText value="#{roman.nombrestock}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Titre" />
+					        </f:facet>
+					        <h:outputText value="#{roman.titre}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="auteur" />
+					        </f:facet>
+					        <h:outputText value="#{roman.auteur}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="dateparution" />
+					        </f:facet>
+					        <h:outputText value="#{roman.dateparution}">
+								<f:converter converterId="convertisseur_de_dates" />					        
+					        </h:outputText>
+					    </h:column>
+					    
+					      <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="style" />
+					        </f:facet>
+					        <h:outputText value="#{roman.style}" />
+					    </h:column>
+					</h:dataTable>
+				</div>
+						
+				<div class="liste_docs" >					
+					<h:dataTable id="table2" value="#{beanEmploye.listedocautre}" var="doc" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES DOCUMENTS AUTRES" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{doc.id}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Edition" />
+					        </f:facet>
+					        <h:outputText value="#{doc.edition}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Nombre en stock" />
+					        </f:facet>
+					        <h:outputText value="#{doc.nombrestock}" />
+					    </h:column>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Type de document" />
+					        </f:facet>
+					        <h:outputText value="#{doc.typedoc}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Description" />
+					        </f:facet>
+					        <h:outputText value="#{doc.description}" />
+					    </h:column>
+
+					</h:dataTable>
+				</div>		
+						
+						
+						
+				<div class="liste_Clients">
+						<h:dataTable id="table3" value="#{beanEmploye.listeclients}" var="client" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES CLIENTS" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{client.id}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Nom" />
+					        </f:facet>
+					        <h:outputText value="#{client.nom}" />
+					    </h:column>
+					    
+					     <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Prenoms" />
+					        </f:facet>
+					        <h:outputText value="#{client.prenoms}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Date de naissance" />
+					        </f:facet>
+					        <h:outputText value="#{client.dateNaissance}">
+					        		<f:converter converterId="convertisseur_de_dates" />					       
+					        </h:outputText>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="E-mail" />
+					        </f:facet>
+					        <h:outputText value="#{client.mail}"/>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="CNI" />
+					        </f:facet>
+					        <h:outputText value="#{client.cni}"/>
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Adresse" />
+					        </f:facet>
+					        <h:outputText value="#{client.adr}">
+					        	<f:converter converterId="AdresseConverter" />
+					        </h:outputText>
+					    </h:column>
+					    
+					    
+					</h:dataTable>
+				</div>
+				
+				<div class="liste_Emprunts">
+						<h:dataTable id="table4" value="#{beanEmploye.listeemprunts}" var="emprunt" border="1">
+						<f:facet name="header">
+					        <h:outputText value="LISTE DES EMPRUNTS" />
+					    </f:facet>
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant" />
+					        </f:facet>
+					        <h:outputText value="#{emprunt.id}" />
+					    </h:column>
+					    
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Date Emprunt" />
+					        </f:facet>
+					        <h:outputText value="#{emprunt.dateemprunt}" >
+								<f:converter converterId="convertisseur_de_dates" />
+							</h:outputText>
+					    </h:column>
+					    
+					     
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant du client" />
+					        </f:facet>
+					        <h:outputText value="#{emprunt.client.id}" />
+					    </h:column>
+						
+						
+					    <h:column>
+					        <f:facet name="header">
+					            <h:outputText value="Identifiant du livre" />
+					        </f:facet>
+					        <h:outputText value="#{emprunt.livre.id}" />
+					    </h:column>
+					    				    
+					</h:dataTable>
+				</div>
+		
+				
+				
+		</div>	
+			
+			
+		</section>
+		
+    	
+    	
+    </h:body>
+</html>

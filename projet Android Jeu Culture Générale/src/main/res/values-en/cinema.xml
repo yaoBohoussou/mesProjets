@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name = "ctv_q_1_n1"> What eat carnivorous plants? </string>
+    <string name = "ctv_r_1_n1"> D insects </string>
+    <string name = "ctv_choix_1_n1"> From verse from mice, D birds </string>
+
+    <string name = "ctv_q_2_n1"> How is the charge d a proton? </string>
+    <string name = "ctv_r_2_n1"> Positive </string>
+    <string name = "ctv_choix_2_n1"> Neutral, Negative, Variable </string>
+
+    <string name = "ctv_q_3_n1"> Ruby is a gemstone what color? </string>
+    <string name = "ctv_r_3_n1"> Red </string>
+    <string name = "ctv_choix_3_n1"> Blue, Pink, Purple </string>
+
+    <string name = "ctv_q_4_n1"> The continuous culture s one type of culture is ________. </string>
+    <string name = "ctv_r_4_n1"> Monoculture </string>
+    <string name = "ctv_choix_4_n1"> The multi-cropping, The midculture, The Uniculture </string>
+
+    <string name = "ctv_q_5_n1"> Qu is that which is removed during  appendectomy? </string>
+    <string name = "ctv_r_5_n1"> L  Appendix </string>
+    <string name = "ctv_choix_5_n1"> The kidney, bone marrow, tonsils The </string>
+
+    <string name = "ctv_q_6_n1"> Which of these animals can learn sign language? </string>
+    <string name = "ctv_r_6_n1"> The </string> chimpanzee
+    <string name = "ctv_choix_6_n1"> The dog, Dolphin, L elephant </string>
+
+    <string name = "ctv_q_7_n1"> What chemical element Ba is it the? </string>
+    <string name = "ctv_r_7_n1"> Barium </string>
+    <string name = "ctv_choix_7_n1"> The basmuth, The barylium, The baure </string>
+
+    <string name = "ctv_q_8_n1"> Materials that do not allow themselves to cross easily by  electricity are _____. </string>
+    <string name = "ctv_r_8_n1"> insulation </string>
+    <string name = "ctv_choix_8_n1"> Drivers, spectators, Dictators </string>
+
+    <string name = "ctv_q_9_n1"> How s name is a substance with a defined shape? </string>
+    <string name = "ctv_r_9_n1"> Strong </string>
+    <string name = "ctv_choix_9_n1"> Liquid, Steam, Gas </string>
+
+    <string name = "ctv_q_10_n1"> How s called a series of  events occurring again and again? </string>
+    <string name = "ctv_r_10_n1"> A </string> cycle
+    <string name = "ctv_choix_10_n1"> A process, a system, A </string> cyclone
+
+    <string name = "ctv_q_11_n1"> How s called colorless, odorless and tasteless, which is 78%  s Earths atmosphere? </string>
+    <string name = "ctv_r_11_n1"> L nitrogen </string>
+    <string name = "ctv_choix_11_n1"> L helium, L  hydrogen  s oxygen </string>
+
+    <string name = "ctv_q_12_n1"> How do you call the imprints s dead beings long ago in a rock? </string>
+    <string name = "ctv_r_12_n1"> Fossil </string>
+    <string name = "ctv_choix_12_n1"> Coal, Crystals, Rocks Eruptive </string>
+
+    <string name = "ctv_q_13_n1"> Qu Is that  an electric current that reverses the direction of its flow several times a second? </string>
+    <string name = "ctv_r_13_n1"> An AC </string>
+    <string name = "ctv_choix_13_n1"> A wave, A circuit, a tidal current </string>
+
+    <string name = "ctv_q_14_n1"> How do you call food waste and rotten plants? </string>
+    <string name = "ctv_r_14_n1"> Compost </string>
+    <string name = "ctv_choix_14_n1"> Condensation, L inoculation, Nectar </string>
+
+    <string name = "ctv_q_15_n1"> How does one call organizations like plants that grow in s water? </string>
+    <string name = "ctv_r_15_n1"> Algae </string>
+    <string name = "ctv_choix_15_n1"> Seaweeds, L agar The nénuphares </string>
+
+    <string name = "ctv_q_16_n1"> How s called the galaxy in which our solar system is? </string>
+    <string name = "ctv_r_16_n1"> Milky Way </string>
+    <string name = "ctv_choix_16_n1"> Sol, Andromeda, Omega Centauri </string>
+
+    <string name = "ctv_q_17_n1"> How s called  s study of living things? </string>
+    <string name = "ctv_r_17_n1"> biology </string>
+    <string name = "ctv_choix_17_n1"> Chemistry, Physics, L astronomy </string>
+
+    <string name = "ctv_q_18_n1"> What science is concerned with s interaction of matter and  s energy? </string>
+    <string name = "ctv_r_18_n1"> Physical </string>
+    <string name = "ctv_choix_18_n1"> The Phycology, Physiology, The psycologie </string>
+
+    <string name = "ctv_q_19_n1"> How do we call the imaginary line around  a halfway world between its north and south poles? </string>
+    <string name = "ctv_r_19_n1"> L equator </string>
+    <string name = "ctv_choix_19_n1"> The middle line, s estuary, L  equation </string>
+
+    <string name = "ctv_q_20_n1"> which of these minerals is the hardest? </string>
+    <string name = "ctv_r_20_n1"> The </string> diamond
+    <string name = "ctv_choix_20_n1"> The talc, quartz, feldspar </string>
+
+
+
+
+
+
+
+
+    <string name = "ctv_q_1_n2"> Which of these choices contribute to global warming? </string>
+    <string name = "ctv_r_1_n2"> L greenhouse </string>
+    <string name = "ctv_choix_1_n2"> The Parks, Pagodas, Gardening </string>
+
+    <string name = "ctv_q_2_n2"> What is the longest day s year? </string>
+    <string name = "ctv_r_2_n2"> The solstice  summer </string>
+    <string name = "ctv_choix_2_n2"> L  equinox  fall, The solstice  winter s spring equinox </string>
+
+    <string name = "ctv_q_3_n2"> A carnivore (fox) eating a herbivore herbivorous (rabbit) would trophic level 3. What are the foxes? </string>
+    <string name = "ctv_r_3_n2"> Secondary consumers </string>
+    <string name = "ctv_choix_3_n2"> Primary consumers Tertiary consumers, the answer s not listed </string>
+
+    <string name = "ctv_q_4_n2"> A current multiplied by resistance equals what? </string>
+    <string name = "ctv_r_4_n2"> voltage </string>
+    <string name = "ctv_choix_4_n2"> Time, Speed, Length </string>
+
+    <string name = "ctv_q_5_n2"> What atomic particles are of opposite charge? </string>
+    <string name = "ctv_r_5_n2"> The protons and electrons </string>
+    <string name = "ctv_choix_5_n2"> Electrons and neutrons, protons and neutrons, All s draw </string>
+
+    <string name = "ctv_q_6_n2"> That requires asexual reproduction? </string>
+    <string name = "ctv_r_6_n2"> A </string> Parent
+    <string name = "ctv_choix_6_n2"> Two parents, four parents No </string> Parent
+
+    <string name = "ctv_q_7_n2"> Which of these choices s not a type  s energy? </string>
+    <string name = "ctv_r_7_n2"> Soil </string>
+    <string name = "ctv_choix_7_n2"> Bright, Chemical, Electrical </string>
+
+    <string name = "ctv_q_8_n2"> In the anatomical directions, which term means "near"? </string>
+    <string name = "ctv_r_8_n2"> Proximal </string>
+    <string name = "ctv_choix_8_n2"> Lateral, Distal, Dorsal </string>
+
+    <string name = "ctv_q_9_n2"> What is the process a plant uses s solar energy to create carbohydrates? </string>
+    <string name = "ctv_r_9_n2"> Photosynthesis </string>
+    <string name = "ctv_choix_9_n2"> The resynthesis The plasmolysis Phototropism </string>
+
+    <string name = "ctv_q_10_n2"> Which planet is the smallest among these proposals? </string>
+    <string name = "ctv_r_10_n2"> Mercury </string>
+    <string name = "ctv_choix_10_n2"> Mars, Earth, Jupiter </string>
+
+    <string name = "ctv_q_11_n2"> How do you call the form  energy produced by the movement of electrons? </string>
+    <string name = "ctv_r_11_n2"> L electricity </string>
+    <string name = "ctv_choix_11_n2"> Telekinesis, Gravity, L induction </string>
+
+    <string name = "ctv_q_12_n2"> What term refers to the thin, sticky film of bacteria that forms on teeth? </string>
+    <string name = "ctv_r_12_n2"> The plate </string>
+    <string name = "ctv_choix_12_n2"> The plankton, Platelet, No proposals </string>
+
+    <string name = "ctv_q_13_n2"> Qu is that  a shooting star? </string>
+    <string name = "ctv_r_13_n2"> A meteor </string>
+    <string name = "ctv_choix_13_n2"> A planet, a star, a red dwarf </string>
+
+    <string name = "ctv_q_14_n2"> Among the next choice which is an example of geological wind? </string>
+    <string name = "ctv_r_14_n2"> A dune </string>
+    <string name = "ctv_choix_14_n2"> A lagoon, a ravine, an atoll </string>
+
+    <string name = "ctv_q_15_n2"> What branch of medicine dealing with bone disorders, joint and muscle? </string>
+    <string name = "ctv_r_15_n2"> L orthopedics </string>
+    <string name = "ctv_choix_15_n2"> L dentistry, Rheumatology, L  exobiology </string>
+
+    <string name = "ctv_q_16_n2"> What happens after a loss or gain atom to an electron? </string>
+    <string name = "ctv_r_16_n2"> An ion </string>
+    <string name = "ctv_choix_16_n2"> An iodine isotope A, A isobaric </string>
+
+    <string name = "ctv_q_17_n2"> How s called the process by passing the  water  s liquid to vapor state? </string>
+    <string name = "ctv_r_17_n2"> Condensation </string>
+    <string name = "ctv_choix_17_n2"> L exfoliation, L  exhibition, L evaporation </string>
+
+    <string name = "ctv_q_18_n2"> How is called the progressive wear of soil and rock face of the earth? </string>
+    <string name = "ctv_r_18_n2"> L erosion </string>
+    <string name = "ctv_choix_18_n2"> Resistance, L epidemic The résure </string>
+
+    <string name = "ctv_q_19_n2"> How is called the reaction between a compound and  oxygen? </string>
+    <string name = "ctv_r_19_n2"> L oxidation </string>
+    <string name = "ctv_choix_19_n2"> L hydrolysis, gasification, No proposals </string>
+
+    <string name = "ctv_q_20_n2"> What element is present in all organic compounds? </string>
+    <string name = "ctv_r_20_n2"> The carbon </string>
+    <string name = "ctv_choix_20_n2"> Copper, Calcium, Sodium </string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name = "ctv_q_1_n3"> Who discovered s Oxygen item? </string>
+    <string name = "ctv_r_1_n3"> Joseph Priestley </string>
+    <string name = "ctv_choix_1_n3"> John Dunlop, Otto Hahn, Willard Libby </string>
+
+    <string name = "ctv_q_2_n3"> Lions live in groups called ______? </string>
+    <string name = "ctv_r_2_n3"> tribes </string>
+    <string name = "ctv_choix_2_n3"> Troops Dens, Covens </string>
+
+    <string name = "ctv_q_3_n3"> What color is the sand of the octopus. </string>
+    <string name = "ctv_r_3_n3"> Blue </string>
+    <string name = "ctv_choix_3_n3"> Green Red Yellow </string>
+
+    <string name = "ctv_q_4_n3"> How many hair averages do humans have on your head? </string>
+    <string name = "ctv_r_4_n3"> 100,000 </string>
+    <string name = "ctv_choix_4_n3"> 50 000.200 000.400 000 </string>
+
+    <string name = "ctv_q_5_n3"> Which of these sources s renewable energy? </string>
+    <string name = "ctv_r_5_n3"> Geothermal </string>
+    <string name = "ctv_choix_5_n3"> Natural gas, Oil, Coal </string>
+
+    <string name = "ctv_q_6_n3"> The salt content in a solution is measured in  help s a _____. </string>
+    <string name = "ctv_r_6_n3"> Salinometer </string>
+    <string name = "ctv_choix_6_n3"> eudiometer, goniometer, OEnomètre </string>
+
+    <string name = "ctv_q_7_n3"> How is called the projection to the surface of the earth the point of  origin s earthquake? </string>
+    <string name = "ctv_r_7_n3"> L epicenter </string>
+    <string name = "ctv_choix_7_n3"> L orbit, the central point, the point  advantage </string>
+
+    <string name = "ctv_q_8_n3"> How does one call the fleecy clouds visible round good weather? </string>
+    <string name = "ctv_r_8_n3"> The </string> cumulus
+    <string name = "ctv_choix_8_n3"> Cirrus clouds, the sebaceous, The cimurus </string>
+
+    <string name = "ctv_q_9_n3"> What is the distance north or south of the  equator in degrees? </string>
+    <string name = "ctv_r_9_n3"> Latitude </string>
+    <string name = "ctv_choix_9_n3"> The frequency, the longitude, the line </string>
+
+    <string name = "ctv_q_10_n3"> What type  articulation are s shoulder and human arms? </string>
+    <string name = "ctv_r_10_n3"> Ball </string>
+    <string name = "ctv_choix_10_n3"> Slide, Pivot Hinge </string>
+
+    <string name = "ctv_q_11_n3"> How s called concretion that forms on the floor of the underground cavities? </string>
+    <string name = "ctv_r_11_n3"> A stalagmite </string>
+    <string name = "ctv_choix_11_n3"> A sralactite, a column, a calcite </string>
+
+    <string name = "ctv_q_12_n3"> The fact attach the cutting  s flat to another to grow a new plant is? </string>
+    <string name = "ctv_r_12_n3"> Grafting </string>
+    <string name = "ctv_choix_12_n3"> The tracing, Locomotion, in vitro fertilization </string>
+
+    <string name = "ctv_q_13_n3"> Qu he arrives at l  air when  we take s elevation above sea level? </string>
+    <string name = "ctv_r_13_n3"> It becomes finer </string>
+    <string name = "ctv_choix_13_n3"> It becomes thicker, it becomes wet, it gets hotter </string>
+
+    <string name = "ctv_q_14_n3"> How many tectonic plates Earth she has at TOTAL? </string>
+    <string name = "ctv_r_14_n3"> 20 </string>
+    <string name = "ctv_choix_14_n3"> 17,15,14 </string>
+
+    <string name = "ctv_q_15_n3"> L study of bees is ______. </string>
+    <string name = "ctv_r_15_n3"> L apidology </string>
+    <string name = "ctv_choix_15_n3"> L epidemiology, Botany, Dermatology </string>
+
+    <string name = "ctv_q_16_n3"> Who formulated the theory s evolution by natural selection in 1859? </string>
+    <string name = "ctv_r_16_n3"> Charles Darwin </string>
+    <string name = "ctv_choix_16_n3"> James Gall, Lazlo Biro, Evangelista Torricelli </string>
+
+    <string name = "ctv_q_17_n3"> What disease is caused by s bodys inability to process sugar correctly? </string>
+    <string name = "ctv_r_17_n3"> Diabetes </string>
+    <string name = "ctv_choix_17_n3"> Drop, Bronchitis, Asthma </string>
+
+    <string name = "ctv_q_18_n3"> The molecules  Ozone consists of three atoms of which element? </string>
+    <string name = "ctv_r_18_n3"> L oxygen </string>
+    <string name = "ctv_choix_18_n3"> L nitrogen, L  helium, L hydrogen </string>
+
+    <string name = "ctv_q_19_n3"> Humans have 46 chromosomes How many  them are NOT counterparts? </string>
+    <string name = "ctv_r_19_n3"> 2 </string>
+    <string name = "ctv_choix_19_n3"> No answers, 46.0 </string>
+
+    <string name = "ctv_q_20_n3"> How many cows they have compartments s stomach? </string>
+    <string name = "ctv_r_20_n3"> 4 </string>
+    <string name = "ctv_choix_20_n3"> 2,3,5 </string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name = "ctv_q_1_n4"> What chemical makes up the majority of your nail polish remover? </string>
+    <string name = "ctv_r_1_n4"> L  acetone </string>
+    <string name = "ctv_choix_1_n4"> L  Ethanol, Methanol, Xylene </string>
+
+    <string name = "ctv_q_2_n4"> Who invented the World Wide Web in 1989? </string>
+    <string name = "ctv_r_2_n4"> Tim Berners-lee </string>
+    <string name = "ctv_choix_2_n4"> Rene Laennec, Alan Turing, Frederick Banting </string>
+
+    <string name = "ctv_q_3_n4"> When two tectonic plates s away  s an s another kind of boundary form? </string>
+    <string name = "ctv_r_3_n4"> A divergent boundary </string>
+    <string name = "ctv_choix_3_n4"> A drawn border A convergent border, a border transforming </string>
+
+    <string name = "ctv_q_4_n4"> How does one call the party s an experience that remains unchanged while  s other parts change? </string>
+    <string name = "ctv_r_4_n4"> Control </string>
+    <string name = "ctv_choix_4_n4"> The Variable, L hypotèse, Gathering data </string>
+
+    <string name = "ctv_q_5_n4"> How s called the structure,  s upper end of the trachea that contains the vocal cords? </string>
+    <string name = "ctv_r_5_n4"> The larynx </string>
+    <string name = "ctv_choix_5_n4"> The trachea, L esophagus, L  epiglottis </string>
+
+    <string name = "ctv_q_6_n4"> Which of the following does NOT mean s one of the three types of rocks? </string>
+    <string name = "ctv_r_6_n4"> Transmodifiée </string>
+    <string name = "ctv_choix_6_n4"> Metamorphic, Igneous, Sedimentary </string>
+
+    <string name = "ctv_q_7_n4"> Which of these proposals is a coastal geological formation? </string>
+    <string name = "ctv_r_7_n4"> A golf </string>
+    <string name = "ctv_choix_7_n4"> A ridge, a cave, a mound </string>
+
+    <string name = "ctv_q_8_n4"> Qu is what happens with the temperature  s air when  item s away from the  equator? </string>
+    <string name = "ctv_r_8_n4"> It becomes colder </string>
+    <string name = "ctv_choix_8_n4"> She gets wet, it gets hotter, it becomes thinner </string>
+
+    <string name = "ctv_q_9_n4"> What is the name s white blood cell that fights germs and harmful substances in the body? </string>
+    <string name = "ctv_r_9_n4"> A leukocyte </string>
+    <string name = "ctv_choix_9_n4"> A plasma, hemoglobin A, an erythrocyte </string>
+
+    <string name = "ctv_q_10_n4"> The urochordates (Aka sea squirts) include which of the following groups? </string>
+    <string name = "ctv_r_10_n4"> Arctic Ascidians </string>
+    <string name = "ctv_choix_10_n4"> Hagfishes, Petromyzontidae, Amphioxus </string>
+
+    <string name = "ctv_q_11_n4"> An organization can not fix carbon but still uses organic carbon for growth is? </string>
+    <string name = "ctv_r_11_n4"> A heterotrophic organism </string>
+    <string name = "ctv_choix_11_n4"> A body Polysaprobic, autotrophe An organization, an organization algéotrophe </string>
+
+    <string name = "ctv_q_12_n4"> How many D avogadro? </string>
+    <string name = "ctv_r_12_n4"> 6.02 * 10 ^ 23 </string>
+    <string name = "ctv_choix_12_n4"> 5.13 * 10 ^ 26,8.07 * 10 ^ 24,7.42 * 10 ^ 21 </string>
+
+    <string name = "ctv_q_13_n4"> In the anatomical direction which term means "under, below"? </string>
+    <string name = "ctv_r_13_n4"> Less </string>
+    <string name = "ctv_choix_13_n4"> Lateral, Rostral, Belly </string>
+
+    <string name = "ctv_q_14_n4"> Qu is what gives plants their green color? </string>
+    <string name = "ctv_r_14_n4"> Chlorophyll </string>
+    <string name = "ctv_choix_14_n4"> Sunlight, Pollination, L water </string>
+
+    <string name = "ctv_q_15_n4"> What is the value s gravitational acceleration of the Earth? </string>
+    <string name = "ctv_r_15_n4"> 9.8 m / s </string>
+    <string name = "ctv_choix_15_n4"> 3.3 m / s, 16.4 m / s, 109.6 m / s </string>
+
+    <string name = "ctv_q_16_n4"> Who discovered radioactivity in the  uranium in 1896? </string>
+    <string name = "ctv_r_16_n4"> Henri Becquerel </string>
+    <string name = "ctv_choix_16_n4"> Max Planck, Albert Einstein, Alfred Wegener </string>
+
+    <string name = "ctv_q_17_n4"> What father and son were all 2 winners s Nobel Prize in physics? in different years in different subjects. </string>
+    <string name = "ctv_r_17_n4"> Bohr </string>
+    <string name = "ctv_choix_17_n4"> Chadwick, Dirac Planck </string>
+
+    <string name = "ctv_q_18_n4"> Why titanium is it expensive to extract from its ore? </string>
+    <string name = "ctv_r_18_n4"> There have a lot s steps </string>
+    <string name = "ctv_choix_18_n4"> There there is no defined process, yields are high, it  s fast </string>
+
+    <string name = "ctv_q_19_n4"> How s called  s positively charged ion? </string>
+    <string name = "ctv_r_19_n4"> The cation </string>
+    <string name = "ctv_choix_19_n4"> L anion, the proton, positron The </string>
+
+    <string name = "ctv_q_20_n4"> Who as the first to represent the trigonometric values ​​as reports? </string>
+    <string name = "ctv_r_20_n4"> Leaonard Euler </string>
+    <string name = "ctv_choix_20_n4"> Bill "the big E" Frankowitz, Eddie Guardado, Austin Edwards </string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name = "ctv_q_1_n5"> Qu do phloem? </string>
+    <string name = "ctv_r_1_n5"> A conductive fabric sap </string>
+    <string name = "ctv_choix_1_n5"> A type  algae, a type of sea placton, Mucus human nose </string>
+
+    <string name = "ctv_q_2_n5"> Which planet has a inclinison s axis of 98 °? </string>
+    <string name = "ctv_r_2_n5"> Uranus </string>
+    <string name = "ctv_choix_2_n5"> Saturn, Mercury, Neptune </string>
+
+    <string name = "ctv_q_3_n5"> What is the name s upper leg bone in humans, the longest and strongest body? </string>
+    <string name = "ctv_r_3_n5"> The femur </string>
+    <string name = "ctv_choix_3_n5"> The ulna, the fibula, L </string> humerus
+
+    <string name = "ctv_q_4_n5"> What green-yellow fluid produced by the liver to help digest fats? </string>
+    <string name = "ctv_r_4_n5"> Bile </string>
+    <string name = "ctv_choix_4_n5"> Bilirubin, The biluire, The biliare </string>
+
+    <string name = "ctv_q_5_n5"> What is the conduit that lets s air into the trachea and the food in the  esophagus? </string>
+    <string name = "ctv_r_5_n5"> The pharynx </string>
+    <string name = "ctv_choix_5_n5"> L epiglottis, the phloem, the Larynx </string>
+
+    <string name = "ctv_q_6_n5"> Depending s interlocutor, how many biological classification levels-is there? </string>
+    <string name = "ctv_r_6_n5"> 7-9 </string>
+    <string name = "ctv_choix_6_n5"> 10-12,4-6,12-14 </string>
+
+    <string name = "ctv_q_7_n5"> How s called the largest moon of Saturn? </string>
+    <string name = "ctv_r_7_n5"> Titan </string>
+    <string name = "ctv_choix_7_n5"> Io, Callisto, Ganymede </string>
+
+    <string name = "ctv_q_8_n5"> What is the chemical symbol s antimony? </string>
+    <string name = "ctv_r_8_n5"> Sb </string>
+    <string name = "ctv_choix_8_n5"> T, Ti, Sn </string>
+
+    <string name = "ctv_q_9_n5"> Platinum has this name because was found in the same mine that  another element, which one? </string>
+    <string name = "ctv_r_9_n5"> L money </string>
+    <string name = "ctv_choix_9_n5"> Coal, Diamond, Bauxite </string>
+
+    <string name = "ctv_q_10_n5"> Who was the first to propose the quantum theory in 1900? </string>
+    <string name = "ctv_r_10_n5"> Max Planck </string>
+    <string name = "ctv_choix_10_n5"> Henri Becquerel, Albert Einstein, Neils Bohr </string>
+
+    <string name = "ctv_q_11_n5"> sap which produces the famous tree syrup? </string>
+    <string name = "ctv_r_11_n5"> L maple </string>
+    <string name = "ctv_choix_11_n5"> The Oak Fern, The chestnut </string>
+
+    <string name = "ctv_q_12_n5"> In océoanographie any cline based on difference density s sea water? </string>
+    <string name = "ctv_r_12_n5"> The pycnocline </string>
+    <string name = "ctv_choix_12_n5"> answer s not listed, L  halocline, The chemocline </string>
+
+    <string name = "ctv_q_13_n5"> What s unit of electric charge of the international system? </string>
+    <string name = "ctv_r_13_n5"> Couloumb </string>
+    <string name = "ctv_choix_13_n5"> Ohm, Ampere, Volt </string>
+
+    <string name = "ctv_q_14_n5"> What is the name of the training that s pupil ground caves? </string>
+    <string name = "ctv_r_14_n5"> The stalagmites </string>
+    <string name = "ctv_choix_14_n5"> The stalactites, calcite casting Stalactites </string>
+
+    <string name = "ctv_q_15_n5"> How do you call an organization that gets nutrients by consuming plants or decomposed animals? </string>
+    <string name = "ctv_r_15_n5"> A scavenger </string>
+    <string name = "ctv_choix_15_n5"> A xylovore, marinovore A, A protéovore </string>
+
+    <string name = "ctv_q_16_n5"> study of the relationship between humans and animals over time is _____. </string>
+    <string name = "ctv_r_16_n5"> archaeozoology </string>
+    <string name = "ctv_choix_16_n5"> astrobiology, The cytomorphology, The exobiology </string>
+
+    <string name = "ctv_q_17_n5"> What kind of compound is HCL </string>
+    <string name = "ctv_r_17_n5"> An acid </string>
+    <string name = "ctv_choix_17_n5"> A base, An enzyme, a ligand </string>
+
+    <string name = "ctv_q_18_n5"> What s effect of deforestation on the levels of carbon dioxide in the  atmosphere? </string>
+    <string name = "ctv_r_18_n5"> increase </string>
+    <string name = "ctv_choix_18_n5"> No Effect, Drop, L effect is variable </string>
+
+    <string name = "ctv_q_19_n5"> What spacecraft, launched in 1972, was l originally intended to  study of Jupiter? </string>
+    <string name = "ctv_r_19_n5"> Pioneer 10 </string>
+    <string name = "ctv_choix_19_n5"> 11 Voyager, Magellan 2 Vostok 3 </string>
+
+    <string name = "ctv_q_20_n5"> What is the name of  Energy s a moving body? </string>
+    <string name = "ctv_r_20_n5"> Kinetic </string>
+    <string name = "ctv_choix_20_n5"> Potential, Kriptonique, electrical </string>
+
+</resources>

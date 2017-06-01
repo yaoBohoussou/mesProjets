@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="enigme_q_1">j\'ai 2 pieds, 6 jambes, 8 bras, 2 têtes et un oeil, qui suis-je ?</string>
+    <string name="enigme_r_1">MENTEUR</string>
+
+    <string name="enigme_q_2">j\'ai quelque chose dans ma poche mais ma poche est vide, Qu\'est ce que c\'est ?</string>
+    <string name="enigme_r_2">TROU</string>
+
+    <string name="enigme_q_3">On me trouve 2 fois dans l\'année, 1 fois dans la semaine, mais pas du tout dans le jour... Qui suis-je ?</string>
+    <string name="enigme_r_3">N</string>
+
+    <string name="enigme_q_4">Mieux que Dieu, Pire que le Diable, Les pauvres en ont, Les Riches en ont besoin, Et si on en mange, on meurt.</string>
+    <string name="enigme_r_4">Rien</string>
+
+    <string name="enigme_q_5">Combien peut-on mettre de gouttes d\'eau dans un verre vide ?</string>
+    <string name="enigme_r_5">1</string>
+
+    <string name="enigme_q_6">Combien y\'a-t-il de carré dans une grille de 4x4 ?</string>
+    <string name="enigme_r_6">30</string>
+
+    <string name="enigme_q_7">Votre médecin vous a donné un traitement de trois gélules. il faut en prendre une toutes les demi-heures. Quelle est la durée du traitement(en minutes) ?</string>
+    <string name="enigme_r_7">60</string>
+
+    <string name="enigme_q_8">un père a 30ans de plus que son fils. Le père et le fils ont à eux deux 36an. Quel est l\'âge du père ?</string>
+    <string name="enigme_r_8">33</string>
+
+    <string name="enigme_q_9">Abdou a 10ans, son petit frère Akram a la moitié de son âge. Quand Abdou sera 10 fois plus âgé, quel âge aura Akram ?</string>
+    <string name="enigme_r_9">95</string>
+
+    <string name="enigme_q_10">Lors d\'un concours d\'échecs, 10 joueurs ont fait une seule partie contre tous les autres. Combien de parties ont été jouées ?</string>
+    <string name="enigme_r_10">45</string>
+
+
+</resources>

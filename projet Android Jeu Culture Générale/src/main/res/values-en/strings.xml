@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Souhal</string>
+    <string name="action_settings">Settings</string>
+    <string name="pseudo"> Pseudo </string>
+    <string name="nouveauJoueur"> New player </string>
+    <string name="ancienJoueur"> Old player </string>
+    <string name="mode1"> Survival </string>
+    <string name="mode2"> Campaign </string>
+    <string name="mode3"> Fast part </string>
+    <string name="Mscore">Best Scores </string>
+    <string name="Quitter"> Quit </string>
+    <string name="retour"> Back </string>
+    <string name="effacer"> Delete </string>
+    <string name="jouer"> Play</string>
+    <string name="reponse"> Response</string>
+    <string name="GO"> GO</string>
+    <string name="gameOver"> GAME OVER</string>
+    <string name="congrats"> CONGRATULATIONS YOU ARE A BOSS</string>
+    <string name="continuer">Continue</string>
+    <string name="title_activity_avancement_mode_normal">avancementModeNormal</string>
+    <string name="title_activity_choix_categorie_layout">ChoixCategorieLayout</string>
+    <string name="title_activity_choix_joueur_mode_survie">ChoixJoueurModeSurvie</string>
+    <string name="title_activity_enigme_layout">EnigmeLayout</string>
+    <string name="title_activity_question3r">Question3r</string>
+    <string name="title_activity_question4r">Question4r</string>
+    <string name="title_activity_question5r">Question5r</string>
+    <string name="title_activity_scores">Scores</string>
+
+    <string-array name="categories">
+        <item>Sports</item>
+        <item>Cinema &amp; TV</item>
+        <item>Music</item>
+        <item>History</item>
+        <item>Fauna &amp; flora</item>
+        <item>Science</item>
+        <item>Mythology</item>
+        <item>Tongues</item>
+    </string-array>
+
+    <string name="title_activity_shit">MainActivityg</string>
+    <string name="title_activity_question6r">Question6r</string>
+    <string name="title_activity_question8r">Question8r</string>
+    <string name="title_activity_ok">MainActivity</string>
+    <string name="title_activity_survival_activity">MainActivity</string>
+
+    <string name="niveau"> Level </string>
+    <string name="ang"> English</string>
+    <string name="fra"> Français</string>
+    <string name="choixLangue"> game Language </string>
+
+</resources>

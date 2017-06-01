@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Architecture globale de l'application}{3}{0}{1}
+\beamer@sectionintoc {2}{Traitements}{4}{0}{2}
+\beamer@sectionintoc {3}{Mise en place de l'extension}{5}{0}{3}
+\beamer@sectionintoc {4}{D\IeC {\'e}monstration}{6}{0}{4}
+\beamer@sectionintoc {5}{CONCLUSION}{7}{0}{5}

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name = "hist_q_1_n1"> In which city was built the Titanic? </string>
+        <string name = "hist_r_1_n1"> Belfast </string>
+        <string name = "hist_choix_1_n1"> Southampton, Liverpool, Glasgow </string>
+
+        <string name = "hist_q_2_n1"> In 1924, how people were granted American citizenship? </string>
+        <string name = "hist_r_2_n1"> Native Americans </string>
+        <string name = "hist_choix_2_n1"> The Dutch, Italians, Texans </string>
+
+        <string name = "hist_q_3_n1"> Iwo Jima was hotly contested during the Second World War. Which country control this island aujourd hui? </string>
+        <string name = "hist_r_3_n1"> Japan </string>
+        <string name = "hist_choix_3_n1"> Russia, Phillipines, USA </string>
+
+        <string name = "hist_q_4_n1"> During the late 18th century, many men traveled from Japan to Broome to dive in search of what? </string>
+        <string name = "hist_r_4_n1"> From pearls </string>
+        <string name = "hist_choix_4_n1"> D abalone, D  or, D wrecks </string>
+
+        <string name = "hist_q_5_n1"> What was the name of the research vessel which took Charles Darwin on board? </string>
+        <string name = "hist_r_5_n1"> Beagle </string>
+        <string name = "hist_choix_5_n1"> Mermaid, A tortoise, Eagle </string>
+
+        <string name = "hist_q_6_n1"> D Swedish chemist after which a series of award she was nominated? </string>
+        <string name = "hist_r_6_n1"> Alfred Nobel </string>
+        <string name = "hist_choix_6_n1"> Robert Willis, Carl Jung, Thomas Booker </string>
+
+        <string name = "hist_q_7_n1"> As the Prince of Wallachia, Vlad II s proclaimed himself the son of the Dragon. How this translates in Romanian? </string>
+        <string name = "hist_r_7_n1"> Dracula </string>
+        <string name = "hist_choix_7_n1"> Ivan, Attila, Genghis </string>
+
+        <string name = "hist_q_8_n1"> Who founded his first car factory in Detroit in 1899? </string>
+        <string name = "hist_r_8_n1"> Henry Ford </string>
+        <string name = "hist_choix_8_n1"> Gottleib Daimler, Cadillac James Herbert Austin </string>
+
+        <string name = "hist_q_9_n1"> L expedition which was the first explorer to navigate around the Earth? </string>
+        <string name = "hist_r_9_n1"> Magellan </string>
+        <string name = "hist_choix_9_n1"> Gama, Cartier, Cook </string>
+
+        <string name = "hist_q_10_n1"> Who built the first operational train? </string>
+        <string name = "hist_r_10_n1"> George Stephenson </string>
+        <string name = "hist_choix_10_n1"> Martin Cooper, Joseph Stalin, Robert Goddard </string>
+
+
+
+
+
+
+
+
+
+        <string name = "hist_q_1_n2"> Who was "Blondi" during World War II? </string>
+        <string name = "hist_r_1_n2"> Hitler\'s dog </string>
+        <string name = "hist_choix_1_n2"> A lager person The rescue of Mussolini, L air of Richard Bong </string>
+
+        <string name = "hist_q_2_n2"> Who has renounced his title to search s enlightenment and created Buddhism? </string>
+        <string name = "hist_r_2_n2"> Siddhatha </string>
+        <string name = "hist_choix_2_n2"> Gandhi Panjurbi, Dithadha </string>
+
+        <string name = "hist_q_3_n2"> Qu is what happened in the US in 1885, the French ship Isere, 350 pieces? </string>
+        <string name = "hist_r_3_n2"> The Statue of Liberty </string>
+        <string name = "hist_choix_3_n2"> The first lift, L Embassy of France, The Yankee Stadium </string>
+
+        <string name = "hist_q_4_n2"> Who discovered the X-rays? </string>
+        <string name = "hist_r_4_n2"> Wilhelm Conrad Rontgen </string>
+        <string name = "hist_choix_4_n2"> Hans Bethe, Albert Einstein, William Crookes </string>
+
+        <string name = "hist_q_5_n2"> What nation Antonio de Oliveira Salazar he was chief from 1932 to 1968? </string>
+        <string name = "hist_r_5_n2"> From Portugal </string>
+        <string name = "hist_choix_5_n2"> D  Albania, De l  Spain, Greece From </string>
+
+        <string name = "hist_q_6_n2"> Which king signed the "Magna Carta"? </string>
+        <string name = "hist_r_6_n2"> John </string>
+        <string name = "hist_choix_6_n2"> Richard 1 1 Edward Henry III </string>
+
+        <string name = "hist_q_7_n2"> On December 18, 1961,  India go to war with a European country. In two days, what country she defeated? </string>
+        <string name = "hist_r_7_n2"> Portugal </string>
+        <string name = "hist_choix_7_n2"> France, Spain, Italy </string>
+
+        <string name = "hist_q_8_n2"> In what year the coronation of Queen Elizabeth II did take place? </string>
+        <string name = "hist_r_8_n2"> 1953 </string>
+        <string name = "hist_choix_8_n2"> 1963,1943,1973 </string>
+
+        <string name = "hist_q_9_n2"> What year Adolf Hitler s is it suicide? </string>
+        <string name = "hist_r_9_n2"> 1945 </string>
+        <string name = "hist_choix_9_n2"> 1946,1944,1947 </string>
+
+        <string name = "hist_q_10_n2"> Which famous astronomer was born in Pisa, in Italy in 1564? </string>
+        <string name = "hist_r_10_n2"> Galilee </string>
+        <string name = "hist_choix_10_n2"> Copernicus, Brahe, Kepler </string>
+
+
+
+
+
+
+
+
+        <string name = "hist_q_1_n3"> Who designed the Statue of Liberty? </string>
+        <string name = "hist_r_1_n3"> Fredric Auguste Bartholdi </string>
+        <string name = "hist_choix_1_n3"> Roy Wilkins, William blount, George Washington </string>
+
+        <string name = "hist_q_2_n3"> Why Anne Frank, a young Jewish born in Germany she esst best known during the 2nd World War? </string>
+        <string name = "hist_r_2_n3"> His journal </string>
+        <string name = "hist_choix_2_n3"> His work s nurse, her work  s spy His music </string>
+
+        <string name = "hist_q_3_n3"> Who killed Lee Harvey Oswald shot? </string>
+        <string name = "hist_r_3_n3"> Jack Ruby </string>
+        <string name = "hist_choix_3_n3"> Jhon F. Kennedy, Richard Nixon, Lyndon B.Johnsn </string>
+
+        <string name = "hist_q_4_n3"> What the 1775 battle was the beginning of the war s independence of the United States? </string>
+        <string name = "hist_r_4_n3"> From Lexington </string>
+        <string name = "hist_choix_4_n3"> From Yorktown, De Bunker Hill, Saratoga From </string>
+
+        <string name = "hist_q_5_n3"> What dictator claimed to have killed JFK with a voodoo curse? </string>
+        <string name = "hist_r_5_n3"> Papa Doc Duvalier </string>
+        <string name = "hist_choix_5_n3"> René Lévesque, Charles De Gaulle, Dien Bien Phu </string>
+
+        <string name = "hist_q_6_n3"> What is the country s origin of Kofi Annan (former Secretary General  s UN)? </string>
+        <string name = "hist_r_6_n3"> The Ghana </string>
+        <string name = "hist_choix_6_n3"> Libya, Nigeria, South Africa </string>
+
+        <string name = "hist_q_7_n3"> Who is the only American to be named in "Mein Kampf" d Hitler? </string>
+        <string name = "hist_r_7_n3"> Henry Ford </string>
+        <string name = "hist_choix_7_n3"> Joseph McCarthy, Franklin Roosevelt, Joe Louis </string>
+
+        <string name = "hist_q_8_n3"> What was the name given to Pope John Paul II? </string>
+        <string name = "hist_r_8_n3"> Karol Wojtyla </string>
+        <string name = "hist_choix_8_n3"> Juan Pablo Montoya, Wladyslaw Sobieski, Juan Paolo </string>
+
+        <string name = "hist_q_9_n3"> What nationality was Roald Amundsen, the first man to reach the South Pole? </string>
+        <string name = "hist_r_9_n3"> Norwegian </string>
+        <string name = "hist_choix_9_n3"> Dutch, Belgian, Swedish </string>
+
+        <string name = "hist_q_10_n3"> Which US president was married to Martha Todd? </string>
+        <string name = "hist_r_10_n3"> Abraham Lincoln </string>
+        <string name = "hist_choix_10_n3"> Theodore Roosevelt, Woodrow Wilson, Ayoub Tebbai </string>
+
+
+
+
+
+
+
+        <string name = "hist_q_1_n4"> What country s Empress Elizabeth Petrovna was the historic leader? </string>
+        <string name = "hist_r_1_n4"> Russia </string>
+        <string name = "hist_choix_1_n4"> Malta, Italy, Granada </string>
+
+        <string name = "hist_q_2_n4"> What was the name of the 2nd Captain Scott s browser? </string>
+        <string name = "hist_r_2_n4"> Falcon </string>
+        <string name = "hist_choix_2_n4"> Eagle, Kestrel, Merli </string>
+
+        <string name = "hist_q_3_n4"> Who was dubbed the "Iron Chancellor" and unified s Germany? </string>
+        <string name = "hist_r_3_n4"> Otto Von Bismarck </string>
+        <string name = "hist_choix_3_n4"> Adolf Hitler, von Hindenburg Paul Helmut Khol </string>
+
+        <string name = "hist_q_4_n4"> Who is the main founder and Prime Minister s Israel? </string>
+        <string name = "hist_r_4_n4"> David Ben Gurion </string>
+        <string name = "hist_choix_4_n4"> Ernest Bevin, Thomas Andrews, Stanley Baldwin </string>
+
+        <string name = "hist_q_5_n4"> What the founder of Pakistan\'s nuclear program, admitted in 2004 selling drawings s nuclear weapons? </string>
+        <string name = "hist_r_5_n4"> A.Q.Khan </string>
+        <string name = "hist_choix_5_n4"> Jala Talabani, Hamid Karzai, David Kay </string>
+
+        <string name = "hist_q_6_n4"> Which city stands where s Roman Emperor Constantine decided to move his capital to the 4th century BC J.C.? </string>
+        <string name = "hist_r_6_n4"> Istanbul </string>
+        <string name = "hist_choix_6_n4"> Vienna, Moscow, Madrid </string>
+
+        <string name = "hist_q_7_n4"> Up  "in 1917, under which name the head of the Russians had he known? </string>
+        <string name = "hist_r_7_n4"> The Tsar </string>
+        <string name = "hist_choix_7_n4"> Prime Prince s Ambassador, President </string>
+
+        <string name = "hist_q_8_n4"> Battle s Alamo opposed Texan volunteers and  s army _____. </string>
+        <string name = "hist_r_8_n4"> From Mexico </string>
+        <string name = "hist_choix_8_n4"> In France, In Britain, The USA </string>
+
+        <string name = "hist_q_9_n4"> What year J.F.Kennedy has he been murdered? </string>
+        <string name = "hist_r_9_n4"> 1963 </string>
+        <string name = "hist_choix_9_n4"> 1960,1968,1966 </string>
+
+        <string name = "hist_q_10_n4"> How King George there he was in England? </string>
+        <string name = "hist_r_10_n4"> Six </string>
+        <string name = "hist_choix_10_n4"> Four, Five, Eight </string>
+
+
+
+
+
+
+
+        <string name = "hist_q_1_n5"> Which Roman emperor built a wall across the North West s England? </string>
+        <string name = "hist_r_1_n5"> Hadrian </string>
+        <string name = "hist_choix_1_n5"> Nero Claudius Augustus </string>
+
+        <string name = "hist_q_2_n5"> Against which countries with which it shares an island s place war  s Dominican independence? </string>
+        <string name = "hist_r_2_n5"> Haiti </string>
+        <string name = "hist_choix_2_n5"> The Jamaica, Cuba, Saint Lucia </string>
+
+        <string name = "hist_q_3_n5"> Who succeeded Queen Victoria as a british monarch? </string>
+        <string name = "hist_r_3_n5"> The King Edouerd VII </string>
+        <string name = "hist_choix_3_n5"> King George IV, King Edward VIII, King George V </string>
+
+        <string name = "hist_q_4_n5"> During what century Robert de Brus was he king of Scots? </string>
+        <string name = "hist_r_4_n5"> In the 14th century </string>
+        <string name = "hist_choix_4_n5"> In the 12th century, the 13th century, the 15th century </string>
+
+        <string name = "hist_q_5_n5"> What Scottish heroine is known for her role in  escape of Bonnie Prince Charlie in 1746? </string>
+        <string name = "hist_r_5_n5"> Flora Macdonald </string>
+        <string name = "hist_choix_5_n5"> Janet McGregor, Jessie Knox, Sally Campbell </string>
+
+        <string name = "hist_q_6_n5"> Who was the only English pope? </string>
+        <string name = "hist_r_6_n5"> Adrian IV </string>
+        <string name = "hist_choix_6_n5"> Benoit III, Pius VI, Gregoire X </string>
+
+        <string name = "hist_q_7_n5"> What is the name of the ship that brought the Pilgrims Fathers in America in 1620? </string>
+        <string name = "hist_r_7_n5"> Mayflower </string>
+        <string name = "hist_choix_7_n5"> L Endeavour, The Goldon Hind, The Beagle </string>
+
+        <string name = "hist_q_8_n5"> Who became a journalist on issues of race in the South after output force d a first-class car? </string>
+        <string name = "hist_r_8_n5"> Ida B. Wells </string>
+        <string name = "hist_choix_8_n5"> Bessie Coleman, Rosa Parks, Maya Angelou </string>
+
+        <string name = "hist_q_9_n5"> What was the name of the husband of Queen Victoria? </string>
+        <string name = "hist_r_9_n5"> Albert </string>
+        <string name = "hist_choix_9_n5"> Anthony Alexander, Andrew </string>
+
+        <string name = "hist_q_10_n5"> What was the profession of Frank Lloyd Wright? </string>
+        <string name = "hist_r_10_n5"> Architect </string>
+        <string name = "hist_choix_10_n5"> Doctor, Artist, Writer </string>
+  </resources>
